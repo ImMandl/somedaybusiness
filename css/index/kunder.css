@@ -1,0 +1,20 @@
+#kunder {
+    padding: 7em 5% 10em; /* luft over og under + en 5% marg på sidene */
+    background-color: #3F8AD5;
+}
+
+#kunder h2 {
+    text-align: center;
+    color: white;
+    margin-bottom: 2em;
+}
+
+#kunder .kunde-logo {
+    height: 80px;
+    text-align: center;
+}
+
+#kunder .kunde-logo img {
+    height: 100%;
+    padding: 0 3em 0;
+}

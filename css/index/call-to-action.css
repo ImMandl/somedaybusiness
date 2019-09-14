@@ -1,0 +1,49 @@
+#call-to-action  {
+    padding: 10em 5% 12em; /* luft over og under + en 5% marg på sidene */
+}
+
+#call-to-action h2 {
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+#call-to-action .action-container {
+    display: flex;
+    flex-direction: column;
+    object-position: center;
+    align-items: center;
+}
+
+#call-to-action .action-text {
+    padding: 0 0 5px 0;
+}
+
+/* form - mail og knapp */
+#call-to-action form {
+    margin: 2em 0;
+}
+
+#call-to-action input[type=mail] {
+    min-width: 100px;
+    width: 200px;
+    padding: 10px 12px;
+    margin: 0 6px;
+    font-size: 1.6rem;
+    border: 1px solid #3F8AD5;
+    border-radius: 6px;
+}
+
+#call-to-action button {
+    font-size: 1.6rem;
+    padding: 12px 20px;
+    color: white;
+    background-color: #3F8AD5;
+    border: 1px solid #3F8AD5;
+    border-radius: 6px;
+}
+
+#call-to-action button:hover {
+    background-color: #00577F;
+    border: 1px solid #00577F;
+    cursor: pointer; 
+}
