@@ -29,6 +29,12 @@ h1 {
 h2 {
     font-size: 2.6rem;
     color: #3F8AD5;
+    text-transform: uppercase;
+}
+
+h3 {
+    font-size: 2rem;
+    color: #3E97E2;
 }
 
 p {
