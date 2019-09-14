@@ -30,4 +30,19 @@
     margin-bottom: 5px;
 }
 
+#tjenester .tjeneste-artikkel p {
+    margin-bottom: 1.5em;
+}
+
+#tjenester .tjeneste-artikkel a {
+    padding: 10px 16px;
+    color: white;
+    background-color: #3F8AD5;
+    border-radius: 6px;
+}
+
+#tjenester .tjeneste-artikkel a:hover {
+    background-color: #00577F;
+}
+
 

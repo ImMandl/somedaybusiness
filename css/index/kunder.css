@@ -1,6 +1,7 @@
 #kunder {
     padding: 7em 5% 10em; /* luft over og under + en 5% marg på sidene */
     background-color: #3F8AD5;
+    min-height: 40em;
 }
 
 #kunder h2 {
