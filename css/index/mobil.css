@@ -1,0 +1,24 @@
+#mobil {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 10em 5% 0;
+}
+
+#mobil .mobil-text {
+    width: 100%;
+}
+
+#mobil .mobil-text h2 {
+    font-size: 3.5rem;
+    letter-spacing: 2px;
+    margin-bottom: 1em;
+}
+
+#mobil .mobil-text p {
+    letter-spacing: 2px;
+    font-weight: 500;
+    color: #3f8ad5;
+}
