@@ -1,21 +1,23 @@
 #kunder {
-    padding: 7em 5% 10em; /* luft over og under + en 5% marg på sidene */
-    background-color: #3F8AD5;
-    min-height: 40em;
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #EEF4F7;
+    padding-bottom: 6em;
 }
 
 #kunder h2 {
     text-align: center;
-    color: white;
     margin-bottom: 2em;
 }
 
 #kunder .kunde-logo {
-    height: 80px;
+    height: 70px;
     text-align: center;
 }
 
 #kunder .kunde-logo img {
     height: 100%;
-    padding: 0 3em 0;
+    padding: 0 2em 0;
 }
