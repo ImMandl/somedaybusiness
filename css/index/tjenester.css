@@ -1,13 +1,22 @@
 #tjenester {
     background-color: #00577F;
     height: 100vh;
-    padding: 12em 5% 10em; /* luft over og under + en 5% marg på sidene */
+    padding: 10em 5% 10em; /* luft over og under + en 5% marg på sidene */
 }
 
 #tjenester h2 {
-    text-align: center;
     letter-spacing: 1px;
     color: #FFF;
+}
+
+
+#tjenester .header-text {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    text-align: center;  
+    padding-bottom: 1em; 
 }
 
 #tjenester .tjeneste-grid {
@@ -34,7 +43,7 @@
     transition: width 0.5s;
 }
 
-#tjenester .tjeneste-artikkel p {
+#tjenester p {
     margin-bottom: 1.5em;
     color: #FFF;
     font-weight: 400;
