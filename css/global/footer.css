@@ -1,7 +1,12 @@
 #footer {
-    background-color: #454545;
     text-align: center;
-    padding: 4em 5%; /* 5% marg på sidene */
+}
+
+#footer .background {
+    background-image: url(../../assets/graphics/footer-background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 18em 0 6em 0;
 }
 
 /* social icons */
@@ -32,8 +37,9 @@
 
 #footer .info a {
     padding-bottom: 7px;
+    color: white;
 }
 
 #footer .info a:hover {
-    color: white;
+    color: #3F8AD5;
 }

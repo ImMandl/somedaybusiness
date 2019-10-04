@@ -1,7 +1,7 @@
 #tjenester {
     background-color: #00577F;
-    height: 100vh;
     padding: 10em 5% 10em; /* luft over og under + en 5% marg på sidene */
+    min-height: 100vh;
 }
 
 #tjenester h2 {
@@ -60,3 +60,13 @@
 }
 
 
+/* ----- Tablet size ----- */
+@media only screen and (max-width: 768px) {
+    #tjenester .header-text {
+        width: 100%;
+    }
+
+    #tjenester .tjeneste-grid {
+        grid-template-columns: 1fr; 
+    } 
+}

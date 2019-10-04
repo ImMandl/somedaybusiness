@@ -1,17 +1,16 @@
 #kontakt {
     text-align: center;
-    height: 80vh;
+    min-height: 50vh;
     padding-top: 10em;
-    background-color: #00577F;
 }
 
 #kontakt h2 {
     padding-bottom: 14px;
-    color: white;
+    color: #00577F;
 }
 
 #kontakt h3 {
-    color: white;
+    color: #00577F;
     padding-bottom: 10px;
 }
 
@@ -21,14 +20,14 @@
 }
 
 #kontakt p {
-    color: white;
+    padding-bottom: 10px;
 }
 
 #kontakt a {
     display: flex;
     justify-content: center;
     padding-bottom: 10px;
-    color: white
+    color: #414141;
 }
 
 #kontakt a:hover {
