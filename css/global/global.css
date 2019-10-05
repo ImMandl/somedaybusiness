@@ -18,6 +18,7 @@ html {
 
 body {
     max-width: 1700px;
+    margin: 0 auto;
 }
 
 /* --- Text ----- */
@@ -58,4 +59,11 @@ a {
 
 a:hover {
     color: #00577F;
+}
+
+/* ----- Tablet size ----- */
+@media only screen and (max-width: 768px) {
+    h1 {
+        font-size: 3rem;
+    }
 }

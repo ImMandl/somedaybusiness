@@ -1,7 +1,7 @@
 #kontakt {
     text-align: center;
     min-height: 50vh;
-    padding-top: 10em;
+    padding: 10em 5% 0;
 }
 
 #kontakt h2 {
@@ -21,6 +21,7 @@
 
 #kontakt p {
     padding-bottom: 10px;
+    font-weight: 500;
 }
 
 #kontakt a {
@@ -47,4 +48,13 @@
     height: 200px;
     border-radius: 50%;
     margin-bottom: 2em;
+}
+
+/* ----- Tablet size ----- */
+@media only screen and (max-width: 768px) {
+    #kontakt .kontakt-grid {
+        grid-template-columns: 1fr;
+        row-gap: 5em;
+        margin-bottom: 0em;
+    }
 }

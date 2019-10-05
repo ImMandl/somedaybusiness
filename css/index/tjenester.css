@@ -1,17 +1,25 @@
 #tjenester {
     background-color: #00577F;
-    padding: 10em 5% 10em; /* luft over og under + en 5% marg på sidene */
+    padding: 6em 5% 10em; /* luft over og under + en 5% marg på sidene */
     min-height: 100vh;
 }
 
 #tjenester h2 {
     letter-spacing: 1px;
     color: #FFF;
+    margin-bottom: 7px;
+    border-bottom: 3px solid white;
+    width: 145px;
+}
+
+#tjenester .headline {
+    display: flex;
+    justify-content: center;
 }
 
 
 #tjenester .header-text {
-    width: 70%;
+    width: 80%;
     display: flex;
     flex-direction: column;
     margin: 0 auto;
@@ -29,7 +37,7 @@
 
 #tjenester .tjeneste-artikkel img {
     width: 100%;
-    height: 20em;
+    height: 30em;
     object-fit: cover;
     margin-bottom: 1em;
 }
@@ -62,9 +70,18 @@
 
 /* ----- Tablet size ----- */
 @media only screen and (max-width: 768px) {
+    #tjenester .headline {
+        display: flex;
+        justify-content: start;
+    }
+
     #tjenester .header-text {
         width: 100%;
     }
+
+    #tjenester .header-text {
+        text-align: left;
+    }    
 
     #tjenester .tjeneste-grid {
         grid-template-columns: 1fr; 

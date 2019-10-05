@@ -4,7 +4,7 @@
 
 #forsidebilde img {
     width: 100%;
-    height: 80em;
+    height: 100vh;
     object-fit: cover;
 } 
 
@@ -33,4 +33,46 @@
 #forsidebilde .btn-outline:hover {
     color: #00577F;
     background-color: white;
+}
+
+/* ----- Laptop ------ */
+@media only screen and (max-width: 1024px) {
+    #forsidebilde .header-text {
+        left: 6%;
+        width: 40em;
+    }
+
+}
+
+/* ----- Tablet size ----- */
+@media only screen and (max-width: 768px) {
+    #forsidebilde .header-text {
+        left: 4%;
+        width: 30em;
+    }
+
+}
+
+/* ---- in between ----- */
+@media only screen and (max-width: 680px) {
+    #forsidebilde .header-text {
+        left: 4%;
+        width: 26em;
+    }
+
+}
+
+/* ----- Phone size ---- */
+@media only screen and (max-width: 425px) {
+    #forsidebilde .header-text {
+        top: 25%;
+        left: 4%;
+        width: 20em;
+    }
+
+    #forsidebilde .btn-outline {
+        font-size: 1.2rem;
+        line-height: 3rem;
+        width: 8em;
+    }
 }

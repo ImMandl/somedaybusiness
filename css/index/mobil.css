@@ -4,12 +4,12 @@
     justify-content: center;
     align-items: center;
     text-align: center;
-    margin: 12em 5% 0; /* luft over seksjonen for å dytte den ned fra forsidebilde + en 5% marg på sidene */
+    padding: 14em 5% 0; /* luft over seksjonen for å dytte den ned fra forsidebilde + en 5% marg på sidene */
 }
 
 #mobil .mobil-graphic {
     display: flex;
-    justify-content: center; 
+    justify-content: center;
 }
 
 #mobil .mobil-text {
@@ -26,4 +26,34 @@
     letter-spacing: 2px;
     font-weight: 500;
     color: #414141;
+}
+
+/* ----- Tablet size ----- */
+@media only screen and (max-width: 768px) {
+    #mobil {
+        grid-template-columns: 1fr;
+        padding: 8em 5% 0;
+    }
+
+    #mobil .mobil-graphic {
+        grid-row-start: 2;
+        justify-self: center;
+    }
+
+    #mobil .mobil-graphic img {
+        width: 100%;
+    }
+
+    #mobil .mobil-text h2 {
+        font-size: 2.7rem;
+    }
+
+    #mobil .mobil-text p {
+        font-size: 1.9rem;
+        line-height: 1.4em;
+    }
+
+    #mobil .mobil-text {
+        margin-bottom: 4em;
+    }
 }
