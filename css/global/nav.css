@@ -8,6 +8,10 @@ header nav {
     background-color: white;
 }
 
+header nav .div-nav-lenker {
+
+}
+
 header nav .nav-lenke {
     margin-left: 40px; /* lager luft for lenkene i navigasjons menyen */
 }
