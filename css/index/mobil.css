@@ -12,6 +12,10 @@
     justify-content: center;
 }
 
+#mobil .mobil-graphic img {
+    width: 500px;
+}
+
 #mobil .mobil-text {
     width: 100%;
 }
@@ -28,7 +32,22 @@
     color: #414141;
 }
 
-/* ----- Tablet size ----- */
+#mobil .underline {
+    border-bottom: 4px solid #00577F;
+}
+
+/* ----- Laptop size - 1024px ----- */
+@media only screen and (max-width: 1024px) {
+    #mobil .mobil-text h2 {
+        font-size: 2.4rem;
+    }
+
+    #mobil .underline {
+        border-bottom: 3px solid #00577F;
+    }
+}
+
+/* ----- Tablet size - 768px ----- */
 @media only screen and (max-width: 768px) {
     #mobil {
         grid-template-columns: 1fr;
@@ -41,19 +60,38 @@
     }
 
     #mobil .mobil-graphic img {
-        width: 100%;
+        width: 80%;
     }
 
     #mobil .mobil-text h2 {
-        font-size: 2.7rem;
+        font-size: 2rem;
     }
 
     #mobil .mobil-text p {
-        font-size: 1.9rem;
+        font-size: 1.4rem;
         line-height: 1.4em;
     }
 
     #mobil .mobil-text {
         margin-bottom: 4em;
+    }
+}
+
+/* ----- Phone size - 425px ----- */
+@media only screen and (max-width: 425px) {
+    #mobil .mobil-graphic img {
+        width: 100%;
+    }
+}
+
+/* ----- Phone size - 375px ----- */
+@media only screen and (max-width: 375px) {
+    #mobil .mobil-text h2 {
+        font-size: 3rem;
+        line-height: 4rem;
+    }
+
+    #mobil .mobil-text p {
+        font-size: 1.2rem;
     }
 }
