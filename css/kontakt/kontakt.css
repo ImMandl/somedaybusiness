@@ -2,36 +2,27 @@
     text-align: center;
     min-height: 50vh;
     padding: 10em 5% 0;
-    background-color: #3F8AD5;
 }
 
 #kontakt h2 {
     padding-bottom: 14px;
-    color: white;
 }
 
 #kontakt h3 {
-    color: white;
+    color: #00577F;
     padding-bottom: 10px;
 }
 
 #kontakt h4 {
     padding-bottom: 10px;
     letter-spacing: 2px;
-    color: white;
-}
-
-#kontakt p {
-    padding-bottom: 10px;
-    font-weight: 500;
-    color: white;
 }
 
 #kontakt a {
     display: flex;
     justify-content: center;
     padding-bottom: 10px;
-    color: white;
+    color: #414141;
 }
 
 #kontakt a:hover {

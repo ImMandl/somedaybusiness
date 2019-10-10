@@ -1,20 +1,21 @@
 #forsidebilde {
     position: relative;
     height: 100vh;
-    min-height: 100vh
+    min-height: 100vh;
 }
 
 #forsidebilde .img {
     background-image: url(../../assets/img/header-bilde.jpg);
     background-repeat: no-repeat;
+    background-size: cover;
     height: 100%;
     width: 100%;
 }
 
 #forsidebilde .header-text {
     position: absolute;
-    top: 32em;
-    left: 10%;
+    top: 28em;
+    left: 8%;
     width: 50em;
 }
 
