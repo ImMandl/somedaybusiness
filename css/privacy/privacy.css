@@ -1,0 +1,31 @@
+#privacy {
+    width: 100vw;
+    margin-top: 5em;
+    margin-bottom: 10em;;
+}
+
+.privacy-container {
+    margin: 0 auto;
+    width: 55%;
+}
+
+#privacy h2 {
+    color: #3F8AD5;
+}
+
+#privacy h3 {
+    color: #3F8AD5;
+    margin-top: 30px;
+    margin-bottom: 5px;
+}
+
+#privacy p {
+    line-height: 1.6em;
+}
+
+#privacy ul {
+    margin-top: 2px;
+    margin-bottom: 2px;
+    margin-left: 30px;
+    line-height: 2.4em;
+}

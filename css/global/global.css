@@ -50,6 +50,11 @@ p {
     color: #414141;
 }
 
+li {
+    font-size: 1.6rem;
+    color: #414141;
+}
+
 a {
     font-size: 1.6rem;
     color: #3F8AD5;
