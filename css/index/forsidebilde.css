@@ -19,9 +19,9 @@
     width: 50em;
 }
 
-
 /* knapper */
-#forsidebilde .btn-outline { /* knappen i header og nyhets seksjonene */
+#forsidebilde .btn-outline {
+    /* knappen i header og nyhets seksjonene */
     font-size: 1.6rem;
     display: block;
     text-decoration: none;
@@ -61,7 +61,7 @@
 /* ----- Tablet size - 768px ----- */
 @media only screen and (max-width: 768px) {
     #forsidebilde {
-        min-height: 600px;
+        min-height: 500px;
     }
 
     #forsidebilde .img {
@@ -78,15 +78,15 @@
 /* ---- Phone size - 425px ----- */
 @media only screen and (max-width: 425px) {
     #forsidebilde {
-        min-height: 730px;
+        min-height: 630px;
     }
 
     #forsidebilde .img {
         background-image: url(../../assets/img/header-bilde-425px.jpg);
     }
 
-    #forsidebilde .header-text{
-        top: 48em;
+    #forsidebilde .header-text {
+        top: 54em;
         width: 80%;
         text-align: center;
         left: 10%;
