@@ -14,17 +14,13 @@
 
 #kunder .kunde-div {
     text-align: center;
-    
+
 }
 
 #kunder .kunde-logo img {
     height: 60px;
-    filter: grayscale(100%);
+    /*filter: grayscale(100%);*/
     margin: 1em;
-}
-
-#kunder .kunde-logo img:hover {
-    filter: grayscale(0%);
 }
 
 /* ----- Tablet size - 768px ----- */
