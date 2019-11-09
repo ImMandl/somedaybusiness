@@ -1,12 +1,21 @@
 #footer {
     text-align: center;
+    position: relative;
+}
+
+#footer .footersvg {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
 }
 
 #footer .background {
-    background-image: url(../../assets/graphics/footer-background.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    padding: 18em 0 6em 0;
+    margin: 20em 0 0 0;
+}
+
+#footer .footer-spacer {
+    height: 3em;
 }
 
 /* social icons */
