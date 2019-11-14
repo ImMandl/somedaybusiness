@@ -7,6 +7,9 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Someday</title>
 
+    <!-- Favicon -->
+    <link rel="icon" href="./favicon-16x16.png" type="favicon" sizes="16x16">
+
     <!-- Global css -->
     <link rel="stylesheet" href="./css/global/global.css">
     <link rel="stylesheet" href="./css/global/nav.css">
@@ -16,16 +19,18 @@
     <!-- Midlertidig link -->
     <link rel="stylesheet" href="./css/kontakt/kontakt.css">
 
+    <!-- Custom css -->
     <link rel="stylesheet" href="./css/index/forsidebilde.css">
     <link rel="stylesheet" href="./css/index/mobil.css">
     <link rel="stylesheet" href="./css/index/tjenester.css">
     <link rel="stylesheet" href="./css/index/kunder.css">
     <link rel="stylesheet" href="./css/index/call-to-action.css">
 
+    <!-- Font awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link href="https://fonts.googleapis.com/css?family=Roboto:400,500&display=swap" rel="stylesheet">
 
-    <link rel="icon" href="./favicon-16x16.png" type="favicon" sizes="16x16">
+    <!-- Google fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,500&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -33,11 +38,12 @@
     <header>
         <!-- NAVIGASJON -->
         <nav class="header">
-            <a href="#" class="logo"><img src="./assets/graphics/logo-someday.png" alt=""></a>
+            <a href="#" class="logo"><img src="./assets/graphics/logo-someday.png" alt="Someday sin logo"></a>
             <input class="menu-btn" type="checkbox" id="menu-btn" />
             <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
             <ul class="menu">
-                <li><a href="#kontakt">Contact us</a></li>
+                <li><a href="./underside/om.html">About us</a></li>
+                <li><a href="#kontakt">Contact</a></li>
                 <li><a href="http://portal.somedaybusiness.com/someday_customer_portal/web/site/login">Sign in</a></li>
             </ul>
         </nav>
@@ -45,7 +51,7 @@
 
     <main>
 
-
+        <!-- Back to top button -->
         <button onclick="topFunction()" id="scrollTopBtn" title="Go to top"><i class="fa fa-chevron-up"></i></button>
 
         <!-- FORSIDEBILDE - header image -->
@@ -78,57 +84,65 @@
                     <h2>Services</h2>
                 </div>
                 <p>Someday helps you build a coherent culture. Everyone within your company holds a
-                    crucial position,
-                    weather you are CEO or the janitor, all are needed to reach the vision, but does everyone feel
-                    like
-                    that? Using our platform we will help you business define and create those actions that builds
-                    engagement across the organization. We all need to start somewhere, but we believe that the best
-                    start
-                    is now. </p>
+                    crucial position, weather you are CEO or the janitor, all are needed to reach the vision, but does
+                    everyone feel like that? Using our platform we will help you business define and create those
+                    actions that builds engagement across the organization. We all need to start somewhere, but we
+                    believe that the best start is now. </p>
             </div>
             <div class="tjeneste-grid">
                 <article class="tjeneste-artikkel">
-                    <img src="./assets/img/onboarding.jpg" alt="">
+                    <img src="./assets/img/onboarding.jpg" alt="Et bord med laptoper og papirer med folk rundt">
                     <h3>Onboarding</h3>
                     <p>Building a coherent culture starts when we sign on a new employee. The excitement and the
                         curiosity for who we are and who are the people that work there. Let's give the best
-                        start
-                        possible, let them get to know you from the inside from the start, so when the first day
-                        of
-                        work is finally there they feel at home. </p>
+                        start possible, let them get to know you from the inside from the start, so when the first day
+                        of work is finally there they feel at home. </p>
+                    <a href="./underside/onboarding.html" class="btn-outline">Read more</a>
                 </article>
                 <article class="tjeneste-artikkel">
-                    <img src="./assets/img/culture.jpg" alt="">
+                    <img src="./assets/img/culture.jpg" alt="En smilende mann med en lapp i panna">
                     <h3>Culture</h3>
                     <p>We know that 70% of all processes of changes fail, how can we change that. We believe
-                        that we
-                        need to continuously train to be able to achieve our goals. Using a gamified platform to
+                        that we need to continuously train to be able to achieve our goals. Using a gamified platform to
                         motivate and engage the whole company on its strategy and vision. </p>
+                    <a href="#" class="btn-outline">Read more</a>
                 </article>
                 <article class="tjeneste-artikkel">
-                    <img src="./assets/img/retail.jpg" alt="">
+                    <img src="./assets/img/retail.jpg" alt="Klær satt opp i butikk">
                     <h3>Retail</h3>
                     <p>We have created an efficient tool for retail when it comes to campaign management. With
-                        this
-                        feature you can easily send out campaign information and receive photos from the stores.
-                        As
-                        campaign manager you can easily give feedback and keep a good dialogue with the stores.
+                        this feature you can easily send out campaign information and receive photos from the stores.
+                        As campaign manager you can easily give feedback and keep a good dialogue with the stores.
                     </p>
+                    <a href="#" class="btn-outline">Read more</a>
                 </article>
             </div>
         </section>
 
         <!-- VÅRE KUNDER -->
         <section id="kunder">
-            <div class="kunde-div">
-                <h2>These companies uses Someday Business in their workdays</h2>
-                <div class="kunde-logo">
-                    <img src="./assets/graphics/basflogo.jpg" alt="">
-                    <img src="./assets/graphics/friskgaardenlogo.png" alt="">
-                    <img src="./assets/graphics/princesslogo.png" alt="">
-                    <img src="./assets/graphics/samarbeidsutviklinglogo.jpg" alt="">
-                    <img src="https://www.olivenlunden1830.no/skin/frontend/polarcore/default/images/olivenlunden-logo.svg"
-                        alt="">
+            <div class="kunde-container">
+                <div class="kunde-tekst">
+                    <h2>Våre kunder</h2>
+                </div>
+                <div class="kunde-wrapper">
+                    <ul class="kunde-grid">
+                        <li class="kunde-logo">
+                            <img src="./assets/kundelogoer/basflogo.jpg" alt="logo for basf">
+                        </li>
+                        <li class="kunde-logo">
+                            <img src="./assets/kundelogoer/friskgaardenlogo.jpg" alt="logo for friskgaarden">
+                        </li>
+                        <li class="kunde-logo">
+                            <img src="./assets/kundelogoer/olivenlunden.png" alt="logo for olivenlunden">
+                        </li>
+                        <li class="kunde-logo">
+                            <img src="./assets/kundelogoer/princesslogo.png" alt="logo for princess">
+                        </li>
+                        <li class="kunde-logo">
+                            <img src="./assets/kundelogoer/samarbeidsutvikling.jpg" alt="logo for samarbeidsutvikling">
+                        </li>
+                    </ul>
                 </div>
             </div>
         </section>
@@ -155,7 +169,7 @@
             <p>Talk to us about your business culture today!</p>
             <div class="kontakt-grid">
                 <article>
-                    <img src="./assets/img/oyvind.jpg" alt="">
+                    <img src="./assets/img/oyvind.jpg" alt="bilde av Øyvind, Founder av Someday">
                     <h3>Øyvind Reierstad</h3>
                     <h4>Founder</h4>
                     <a href="mailto:or@somedaybusiness.com">or@somedaybusiness.com</a>
@@ -164,7 +178,7 @@
                             class="fa fa-linkedin-square"></i></a>
                 </article>
                 <article>
-                    <img src="./assets/img/patrick.jpg" alt="">
+                    <img src="./assets/img/patrick.jpg" alt="bilde av Patrick, COO i Someday">
                     <h3>Patrick Olsen</h3>
                     <h4>COO</h4>
                     <a href="mailto:po@somedaybusiness.com">po@somedaybusiness.com</a>
@@ -178,30 +192,41 @@
     </main>
 
     <footer id="footer">
-        <div class="background">
-            <svg class="footersvg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 420">
-                <path fill="#00577F" fill-opacity="1"
-                    d="M0,192L60,176C120,160,240,128,360,112C480,96,600,96,720,101.3C840,107,960,117,1080,112C1200,107,1320,85,1380,74.7L1440,64L1440,420L1380,420C1320,420,1200,420,1080,420C960,420,840,420,720,420C600,420,480,420,360,420C240,420,120,420,60,420L0,420Z">
-                </path>
-            </svg>
-            <div class="footer-wrapper">
-                <section class="social-container">
+        <div class="footer-wrapper">
+            <div class="footer-grid">
+                <section class="company-info">
+                    <h3>Kontakt</h3>
+                    <p>Someday Company AS</p>
+                    <p>Mesh - Tordenskioldsgate 3</p>
+                    <p>0160 Norway</p>
+                    <a href="mailto:support@somedaybusiness.com">support@somedaybusiness.com</a>
+                </section>
+                <section class="produkt-linker">
+                    <h3>Tjenester</h3>
+                    <a href="./underside/onboarding.html">Onboarding</a>
+                    <a href="./underside/retail.html">Retail</a>
+                    <a href="./underside/culture.html">Culture</a>
+                </section>
+                <section class="site-map">
+                    <h3>Informasjon</h3>
+                    <a href="./underside/onboarding.html">Om oss</a>
+                    <a href="./underside/retail.html">Personvern</a>
+                </section>
+            </div>
+            <section class="social-footer">
+                <div class="footer-logo">
+                    <img src="./assets/graphics/logo-someday-hvit.png" alt="Someday logo ikon hvit">
+                </div>
+                <div class="social-icons">
                     <a href="https://www.facebook.com/somedayapp/" target="blank"><i
                             class="fa fa-facebook-square"></i></a>
                     <a href="https://www.linkedin.com/company/someday---app/" target="blank"><i
                             class="fa fa-linkedin-square"></i></a>
-                </section>
-                <section class="info">
-                    <p>Someday Company AS</p>
-                    <p>Mesh - Tordenskioldsgate 3</p>
-                    <p>0160 Norway</p>
-                    <a href="./underside/privacy.html">Privacy</a>
-                    <a href="mailto:support@somedaybusiness.com">support@somedaybusiness.com</a>
-                    <div class="footer-spacer"></div>
-                </section>
-            </div>
+                </div>
+            </section>
         </div>
     </footer>
+
 
     <script src="./javascript/back_to_top.js"></script>
 </body>

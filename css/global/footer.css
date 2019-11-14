@@ -1,54 +1,118 @@
 #footer {
-    text-align: center;
-    position: relative;
+    max-width: 1920px;
+    display: block;
+    margin: 0 auto;
+    background-color: #00577F;
 }
 
-#footer .footersvg {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    z-index: -1;
-}
-
-#footer .background {
-    margin: 20em 0 0 0;
-}
-
-#footer .footer-spacer {
-    height: 3em;
-}
-
-/* social icons */
-#footer .social-container {
-    margin-bottom: 1em;
-}
-
-#footer .social-container a {
-    font-size: 3.5rem;
-    padding: 5px;
+#footer h4,
+#footer p,
+#footer a {
     color: white;
 }
 
-#footer .social-container a:hover {
-    color: #3F8AD5;
+#footer a {
+    padding-bottom: 5px;
 }
 
-/* tekst og lenker */
-#footer .info {
-    display: inline-flex;
+#footer a:hover {
+    color: #3391cF;
+}
+
+.footer-wrapper {
+    max-width: 1200px;
+    display: block;
+    margin: 0 auto;
+}
+
+.footer-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    justify-content: center;
+    align-content: center;
+    padding: 8em 5% 1.6em;
+}
+
+/* første rad */
+.company-info {
+    display: flex;
     flex-direction: column;
 }
 
-#footer .info p {
-    color: white;
-    padding-bottom: 7px;
+/* andre rad */
+.produkt-linker {
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
 }
 
-#footer .info a {
-    padding-bottom: 7px;
-    color: white;
+/* tredje rad */
+.site-map {
+    display: flex;
+    flex-direction: column;
+    justify-self: end;
 }
 
-#footer .info a:hover {
-    color: #3F8AD5;
+/* under rad */
+.social-footer {
+    padding: 0 5% 5em;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.social-footer a {
+    font-size: 3rem;
+    margin-left: 12px;
+}
+
+.social-footer img {
+    height: 3em;
+}
+
+.social-icons {
+    justify-self: end;
+}
+
+/* ----- Tablet size - 768px ----- */
+@media only screen and (max-width: 768px) {
+
+    #footer a,
+    #footer p {
+        padding-bottom: 10px;
+    }
+
+    .footer-grid {
+        display: grid;
+        grid-template-columns: 1fr;
+        padding-bottom: 3rem;
+    }
+
+    /* første rad */
+    .company-info {
+        margin-bottom: 4em;
+    }
+
+    /* andre rad */
+    .produkt-linker {
+        justify-self: start;
+        margin-bottom: 4em;
+    }
+
+    /* tredje rad*/
+    .site-map {
+        justify-self: start;
+    }
+
+    /* under rad */
+    .social-footer {
+        grid-template-columns: 1fr;
+    }
+
+    .footer-logo {
+        justify-self: center;
+    }
+
+    .social-icons {
+        justify-self: center;
+    }
 }

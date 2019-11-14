@@ -1,0 +1,127 @@
+/* header tekst */
+.about-header {
+    display: block;
+    margin: 8em auto 6em;
+}
+
+.about-header h2 {
+    font-size: 4rem;
+    margin-bottom: 5px;
+}
+
+.about-header .about-title {
+    margin-bottom: 20px;
+}
+
+.about-title {
+    max-width: 1200px;
+    display: block;
+    margin: 8em auto 0;
+    padding: 0 0 0 5%;
+}
+
+.about-title-img {
+    max-height: 600px;
+    width: 100%;
+    overflow: hidden;
+    object-fit: cover;
+    padding: 0 0 0 5%;
+}
+
+.about-title-img img {
+    height: auto;
+    width: 100%;
+}
+
+.about-header p {
+    line-height: 1.6;
+}
+
+/* hvordan det startet */
+.about-start {
+    max-width: 1200px;
+    display: block;
+    margin: 16em auto 12em;
+    padding: 0 5%;
+}
+
+.about-start h2 {
+    color: #333;
+    font-size: 3rem;
+}
+
+.about-start-grid {
+    column-count: 2;
+    gap: 4em;
+}
+
+/* Grid for personal */
+.about-grid-title {
+    max-width: 1200px;
+    display: block;
+    margin: 0 auto 1em;
+}
+
+.about-grid-title h2 {
+    color: #333;
+}
+
+.about-grid {
+    display: block;
+    max-width: 1200px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(20em, 30em));
+    justify-content: center;
+    column-gap: 6em;
+    row-gap: 5em;
+    margin: 0 auto 12em;
+    padding: 0 5%;
+}
+
+.about-person {
+    justify-self: center;
+    text-align: center;
+    background-color: #00577f;
+    padding: 2em 6em;
+    border-radius: 8px;
+    width: 30em;
+    max-width: 30em;
+    overflow: hidden;
+    word-wrap: break-word
+}
+
+.about-person h3,
+.about-person h4,
+.about-person p,
+.about-person a {
+    color: white;
+    padding-bottom: 10px;
+}
+
+.about-person a {
+    display: flex;
+    justify-content: center;
+}
+
+.about-person a i {
+    font-size: 2.6rem;
+}
+
+.about-person a:hover {
+    color: #3F8AD5;
+}
+
+.about-person img {
+    height: 16em;
+    width: 16em;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 1em;
+}
+
+/* ----- Tablet size ----- */
+@media only screen and (max-width: 768px) {
+    .about-start-grid {
+        column-count: 1;
+    }
+}

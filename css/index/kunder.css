@@ -1,48 +1,57 @@
 #kunder {
-    min-height: 50vh;
+    max-width: 1700px;
+    display: block;
+}
+
+.kunde-container {
+    margin: 0 auto;
+    max-width: 1400px;
+    height: 550px;
+    padding-left: 24px;
+    padding-right: 24px;
     display: flex;
-    align-items: center;
+    flex-direction: column;
     justify-content: center;
-    margin-top: 4em;
-    padding: 0 5%;
 }
 
-#kunder h2 {
+.kunde-tekst {
     text-align: center;
-    margin-bottom: 1em;
+    padding-bottom: 14px;
 }
 
-#kunder .kunde-div {
-    text-align: center;
-
+.kunde-tekst h2 {
+    margin-bottom: 0.3em;
+    letter-spacing: 1.2;
 }
 
-#kunder .kunde-logo img {
-    height: 60px;
-    /*filter: grayscale(100%);*/
-    margin: 1em;
+.kunde-wrapper {
+    display: block;
+    margin: 0 auto;
 }
 
-/* ----- Tablet size - 768px ----- */
+.kunde-grid {
+    max-width: 1200px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(10em, 1fr));
+    justify-content: center;
+}
+
+.kunde-wrapper li {
+    margin: 0;
+    opacity: 1;
+    padding: 12px 28px;
+    list-style-type: none;
+    justify-self: center;
+}
+
+.kunde-logo img {
+    display: block;
+    height: 5em;
+}
+
+/* ----- 768 - tablet ----- */
 @media only screen and (max-width: 768px) {
     #kunder {
-        margin-top: 8em;
-        margin-bottom: 4em;
+        margin-top: 10em;
     }
-}
-
-/* ----- Phone size - 425px ----- */
-@media only screen and (max-width: 425px) {
-    #kunder {
-        margin-bottom: 6em;
-    }
-
-    #kunder h2 {
-        margin-bottom: 0.8em;
-    }
-
-    #kunder .kunde-logo img {
-        height: 40px;
-    }
-
 }

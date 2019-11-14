@@ -1,7 +1,7 @@
 #kontakt {
     text-align: center;
     min-height: 50vh;
-    padding: 10em 5% 0;
+    padding: 4em 5% 10em 5%;
 }
 
 #kontakt h2 {
@@ -9,7 +9,7 @@
 }
 
 #kontakt h3 {
-    color: #00577F;
+    color: #00577f;
     padding-bottom: 10px;
 }
 
@@ -26,7 +26,11 @@
 }
 
 #kontakt a:hover {
-    color: #00577F;
+    color: #3391cF;
+}
+
+#kontakt a i {
+    font-size: 2.6rem;
 }
 
 #kontakt .kontakt-grid {
@@ -43,8 +47,16 @@
     margin-bottom: 2em;
 }
 
+#kontakt .social-container a {
+    font-size: 3.5rem;
+}
+
 /* ----- Tablet size ----- */
 @media only screen and (max-width: 768px) {
+    #kontakt {
+        margin-top: 10em;
+    }
+
     #kontakt .kontakt-grid {
         grid-template-columns: 1fr;
         row-gap: 5em;

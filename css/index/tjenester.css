@@ -1,16 +1,16 @@
 #tjenester {
     background-color: white;
-    padding: 6em 5% 10em;
+    padding: 6em 5% 4em;
     /* luft over og under + en 5% marg på sidene */
     min-height: 100vh;
     margin-top: 6em;
+    max-width: 1700px;
 }
 
 #tjenester h2 {
     letter-spacing: 1px;
     color: #00577F;
     margin-bottom: 7px;
-    border-bottom: 3px solid #00577F;
     width: 145px;
 }
 
@@ -47,7 +47,9 @@
 
 #tjenester .tjeneste-artikkel {
     background-color: #00577F;
-    padding: 1rem;
+    padding: 1.6rem 1.6rem 1rem 1.6rem;
+    display: grid;
+    border-radius: 6px;
 }
 
 #tjenester .tjeneste-artikkel p {
@@ -77,6 +79,29 @@
 
 #tjenester .hover-artikkel a:hover {
     color: red;
+}
+
+/* knapper */
+.btn-outline {
+    /* knappen i header og nyhets seksjonene */
+    font-size: 1.4rem;
+    display: block;
+    text-decoration: none;
+    color: white;
+    border: 2px solid white;
+    border-radius: 6px;
+    width: 9em;
+    line-height: 4rem;
+    text-align: center;
+    margin-top: 1.6em;
+    margin-bottom: 1em;
+    transition: color 0.5s;
+    align-self: end;
+}
+
+.btn-outline:hover {
+    color: #00577F;
+    background-color: white;
 }
 
 
