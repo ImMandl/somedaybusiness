@@ -57,9 +57,9 @@ h5 {
 }
 
 p {
-    font-size: 1.6rem;
+    font-size: 1.8rem;
     color: #414141;
-    line-height: 1.5;
+    line-height: 1.6;
 }
 
 li {
@@ -68,10 +68,11 @@ li {
 }
 
 a {
-    font-size: 1.6rem;
+    font-size: 2rem;
     color: #3391cF;
     text-decoration: none;
     font-weight: 500;
+    line-height: 1.6;
 }
 
 a:hover {

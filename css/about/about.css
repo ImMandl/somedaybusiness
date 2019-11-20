@@ -46,7 +46,7 @@
 }
 
 .about-start h2 {
-    color: #333;
+    color: #00577f;
     font-size: 3rem;
 }
 
@@ -63,17 +63,17 @@
 }
 
 .about-grid-title h2 {
-    color: #333;
+    color: #00577f;
 }
 
 .about-grid {
     display: block;
-    max-width: 1200px;
+    max-width: 1700px;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(20em, 30em));
+    grid-template-columns: repeat(auto-fit, minmax(30em, 1fr));
     justify-content: center;
-    column-gap: 6em;
-    row-gap: 5em;
+    column-gap: 4em;
+    row-gap: 6em;
     margin: 0 auto 12em;
     padding: 0 5%;
 }
@@ -82,7 +82,7 @@
     justify-self: center;
     text-align: center;
     background-color: #00577f;
-    padding: 2em 6em;
+    padding: 4em;
     border-radius: 8px;
     width: 30em;
     max-width: 30em;

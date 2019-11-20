@@ -1,17 +1,11 @@
 #kunder {
-    max-width: 1700px;
+    max-width: 1200px;
     display: block;
+    margin: 0 auto 1em;
 }
 
 .kunde-container {
-    margin: 0 auto;
-    max-width: 1400px;
-    height: 550px;
-    padding-left: 24px;
-    padding-right: 24px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+    margin: 20em 0 26em 0;
 }
 
 .kunde-tekst {
@@ -30,26 +24,31 @@
 }
 
 .kunde-grid {
-    max-width: 1200px;
+    display: block;
+    max-width: 1700px;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(10em, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(16em, 1fr));
     justify-content: center;
+    column-gap: 4em;
+    row-gap: 6em;
+    margin: 1em auto 12em;
+    padding: 0 5%;
 }
 
-.kunde-wrapper li {
-    margin: 0;
-    opacity: 1;
-    padding: 12px 28px;
-    list-style-type: none;
+.kunde-wrapper  {
+    padding: 0 5%;
+}
+
+.kunde-logo {
+    height: 8em;
     justify-self: center;
 }
 
 .kunde-logo img {
-    display: block;
-    height: 5em;
+    height: 100%;
 }
 
-/* ----- 768 - tablet ----- */
+/* ----- 768 - tablet ----- *//*
 @media only screen and (max-width: 768px) {
     #kunder {
         margin-top: 10em;

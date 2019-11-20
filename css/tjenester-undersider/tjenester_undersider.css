@@ -1,0 +1,137 @@
+main {
+    margin-top: 10em;
+}
+
+/* Title */
+#title {
+    padding: 0 5%;
+    max-width: 1700px;
+    margin: 10em 0 5em;
+}
+
+#title h2 {
+    font-size: 4rem;
+}
+
+/* Trinn */
+.trinn {
+    max-width: 1700px;
+}
+
+.trinn-artikkel {
+    overflow: hidden;
+    margin: 0 0 10em 0;
+    max-width: 35em;
+}
+
+.trinn-artikkel h3 {
+    color: #00577F;
+}
+
+.trinn-grid {
+    padding: 0 5%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(20em, 1fr));
+    gap: 40px;
+}
+
+.trinn-artikkel h3{
+    font-size: 6rem;
+}
+
+/* Produkt */
+.produkt {
+    max-width: 1700px;
+    margin-bottom: 10em;
+    padding: 0 5%;
+}
+
+.produkt h3 {
+    color: #00577F;
+    margin-top: 1.4em;
+}
+
+.produkt p {
+    margin-bottom: 8px;
+    line-height: 1.8;
+}
+
+.produkt-grid {
+    display: grid;
+    gap: 5em;
+}
+
+.produkt-bilder {
+    height: 60em;
+    max-height: 60em;
+}
+
+.produkt-bilder img {
+    height: 100%
+}
+
+.produkt-beskrivelse {
+    max-width: 1400px;
+}
+
+/* culture */
+.produkt-bilder-culture {
+    height: 60em;
+    max-height: 60em;
+    display: grid;
+    justify-content: center;
+}
+
+.produkt-bilder-culture img {
+    height: 100%
+}
+
+
+/* ----- LATPTOP ------ */
+@media only screen and (max-width: 10240px) {
+    .produkt-bilder {
+        height: 50em;
+        max-height: 50em;
+    }
+
+    .trinn-grid {
+        gap: 20px;
+    }
+}
+
+/* ----- TABLET ------ */
+@media only screen and (max-width: 768px) {
+    .produkt-bilder {
+        height: 30em;
+        max-height: 30em;
+        display: grid;
+        justify-content: center;
+    }
+
+    .produkt-bilder-culture {
+        height: 50em;
+        max-height: 50em;
+    }
+}
+
+/* ----- PHONE ------ */
+@media only screen and (max-width: 514px) {
+    .produkt-bilder {
+        height: 20em;
+        max-height: 20em;
+    }
+
+    .produkt-bilder-culture {
+        display: grid;
+        justify-content: center;
+    }
+}
+
+/* ----- SMALL PHONE ------ */
+@media only screen and (max-width: 320px) {
+    .produkt-bilder {
+        height: 14em;
+        max-height: 14em;
+    }
+}
+

@@ -1,47 +1,88 @@
-#call-to-action  {
-    height: 55vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 0 5%; /* 5% marg på sidene */
+#call-to-action {
+	margin-bottom: 18em;
+	min-height: 60vh;
 }
 
-#call-to-action h2 {
-    text-align: center;
-    margin-bottom: 5px;
-}
-
-#call-to-action .action-text {
-    padding: 0 0 5px 0;
-}
-
-/* form - mail og knapp */
-#call-to-action form {
-    margin: 2em 0;
+#call-to-action .action-text{
     text-align: center;
 }
 
-#call-to-action input[type=mail] {
-    min-width: 100px;
-    width: 200px;
-    padding: 10px 12px;
-    margin: 0 6px;
-    font-size: 1.6rem;
-    border: 1px solid #00577F;
-    border-radius: 6px;
+/* hentet fra https://www.sanwebe.com/2014/08/css-html-forms-designs. Modifisert i ettertid */ 
+.form-style-1 {
+    display: block;
+	margin: 10px auto;
+	max-width: 400px;
+	padding: 20px 12px 10px 20px;
 }
 
-#call-to-action button {
-    font-size: 1.6rem;
-    padding: 12px 20px;
-    color: white;
-    background-color: #00577F;
-    border: 1px solid #00577F;
-    border-radius: 6px;
+.form-style-1 li {
+	padding: 0;
+	display: block;
+	list-style: none;
+    margin: 16px 0 0 0;
 }
 
-#call-to-action button:hover {
-    background-color: #3F8AD5;
-    border: 1px solid #3F8AD5;
-    cursor: pointer; 
+.form-style-1 label{
+	margin: 0 0 3px 0;
+	padding: 0px;
+	display: block;
+	font-size: 1.6rem;
+}
+
+.form-style-1 input[type=text], 
+.form-style-1 input[type=date],
+.form-style-1 input[type=datetime],
+.form-style-1 input[type=number],
+.form-style-1 input[type=search],
+.form-style-1 input[type=time],
+.form-style-1 input[type=url],
+.form-style-1 input[type=email],
+textarea, 
+select{
+	border:1px solid #00577F;
+	padding: 12px 20px;
+	transition: all 0.30s ease-in-out;
+	outline: none;	
+    border-radius: 8px;
+}
+.form-style-1 input[type=text]:focus, 
+.form-style-1 input[type=date]:focus,
+.form-style-1 input[type=datetime]:focus,
+.form-style-1 input[type=number]:focus,
+.form-style-1 input[type=search]:focus,
+.form-style-1 input[type=time]:focus,
+.form-style-1 input[type=url]:focus,
+.form-style-1 input[type=email]:focus,
+.form-style-1 textarea:focus, 
+.form-style-1 select:focus{
+	box-shadow: 0 0 8px #3391cF;
+	border: 1px solid #3391cF;
+}
+.form-style-1 .field-divided{
+	width: 49%;
+}
+
+.form-style-1 .field-long{
+	width: 100%;
+}
+.form-style-1 .field-select{
+	width: 100%;
+}
+.form-style-1 .field-textarea{
+	height: 100px;
+}
+.form-style-1 input[type=submit], .form-style-1 input[type=button]{
+	background: #00577F;
+	padding: 12px 20px;
+	border: none;
+    color: #fff;
+    font-size: 1.6rem;
+    border-radius: 8px;
+}
+.form-style-1 input[type=submit]:hover, .form-style-1 input[type=button]:hover{
+	background: #3391cF;
+	box-shadow:none;
+}
+.form-style-1 .required{
+	color:red;
 }
