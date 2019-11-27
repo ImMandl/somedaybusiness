@@ -1,5 +1,7 @@
 main {
+    margin: 0 auto;
     margin-top: 10em;
+    display: block;
 }
 
 /* Title */
@@ -22,10 +24,12 @@ main {
     overflow: hidden;
     margin: 0 0 10em 0;
     max-width: 35em;
+    justify-self: center;
 }
 
 .trinn-artikkel h3 {
     color: #00577F;
+    font-size: 6rem;
 }
 
 .trinn-grid {
@@ -35,15 +39,13 @@ main {
     gap: 40px;
 }
 
-.trinn-artikkel h3{
-    font-size: 6rem;
-}
-
 /* Produkt */
 .produkt {
     max-width: 1700px;
-    margin-bottom: 10em;
     padding: 0 5%;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 10em;
 }
 
 .produkt h3 {
@@ -52,7 +54,7 @@ main {
 }
 
 .produkt p {
-    margin-bottom: 8px;
+    margin-bottom: 20px;
     line-height: 1.8;
 }
 
@@ -64,6 +66,7 @@ main {
 .produkt-bilder {
     height: 60em;
     max-height: 60em;
+    margin-bottom: 10em;
 }
 
 .produkt-bilder img {
@@ -71,8 +74,11 @@ main {
 }
 
 .produkt-beskrivelse {
-    max-width: 1400px;
+    max-width: 1700px;
+    columns: 2;
+    gap: 60px;
 }
+
 
 /* culture */
 .produkt-bilder-culture {
@@ -111,6 +117,14 @@ main {
     .produkt-bilder-culture {
         height: 50em;
         max-height: 50em;
+    }
+
+    .produkt-beskrivelse {
+        columns: 1;
+    }
+
+    .trinn-artikkel h3 {
+        text-align: center;
     }
 }
 
