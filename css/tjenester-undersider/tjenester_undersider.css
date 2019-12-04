@@ -49,7 +49,7 @@ main {
 }
 
 .produkt h3 {
-    color: #00577F;
+    color: var(--blue);
     margin-top: 1.4em;
 }
 

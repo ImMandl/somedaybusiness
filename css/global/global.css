@@ -1,5 +1,10 @@
 :root {
     font-size: 62.5%;
+
+    --blue: #00577f;
+    --red: #1C94D7;
+    --grey: #383637;
+    --white: #ffffff;
 }
 
 * {
@@ -24,14 +29,14 @@ body {
 /* --- Text ----- */
 h1 {
     font-size: 4rem;
-    color: white;
+    color: var(--white);
     letter-spacing: 1px;
     margin-bottom: 5px;
 }
 
 h2 {
     font-size: 3rem;
-    color: #00577F;
+    color: var(--blue);
     text-transform: uppercase;
     letter-spacing: 1px;
     margin-bottom: 5px;
@@ -39,43 +44,43 @@ h2 {
 
 h3 {
     font-size: 2.4rem;
-    color: #FFF;
+    color: var(--white);
     margin-bottom: 5px;
 }
 
 h4 {
     font-size: 1.8rem;
-    color: #3391cF;
+    color: var(--blue);
     margin-bottom: 5px;
 }
 
 h5 {
     font-size: 2rem;
-    color: #333;
+    color: var(--grey);
     margin-bottom: 5px;
     font-weight: 300;
 }
 
 p {
     font-size: 1.8rem;
-    color: #414141;
+    color: var(--grey);
     line-height: 1.6;
 }
 
 li {
     font-size: 1.6rem;
-    color: #414141;
+    color: var(--grey);
 }
 
 a {
     font-size: 2rem;
-    color: #3391cF;
+    color: var(--blue);
     text-decoration: none;
     font-weight: 500;
     line-height: 1.6;
 }
 a:hover {
-    color: #00577F;
+    color: var(--blue);
 }
 
 

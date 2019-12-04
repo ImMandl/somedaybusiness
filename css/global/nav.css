@@ -1,5 +1,5 @@
 .header {
-    background-color: #fff;
+    background-color: var(--white);
     min-height: 80px;
     width: 100%;
     padding: 10px 5% 0;
@@ -10,7 +10,7 @@
     padding: 0;
     list-style: none;
     overflow: hidden;
-    background-color: #fff;
+    background-color: var(--white);
 }
 
 .header li a {
@@ -21,7 +21,7 @@
 
 .header li a:hover,
 .header .menu-btn:hover {
-    color: #00577F;
+    color: var(--blue);
 }
 
 .header .logo {
@@ -54,7 +54,7 @@
 }
 
 .header .menu-icon .navicon {
-    background: #00577F;
+    background: var(--blue);
     display: block;
     height: 2px;
     position: relative;
@@ -64,7 +64,7 @@
 
 .header .menu-icon .navicon:before,
 .header .menu-icon .navicon:after {
-    background: #00577F;
+    background: var(--blue);
     content: '';
     display: block;
     height: 100%;

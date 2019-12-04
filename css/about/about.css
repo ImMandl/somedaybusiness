@@ -46,7 +46,7 @@
 }
 
 .about-start h2 {
-    color: #00577f;
+    color: var(--blue);
     font-size: 3rem;
 }
 
@@ -63,7 +63,7 @@
 }
 
 .about-grid-title h2 {
-    color: #00577f;
+    color: var(--blue);
 }
 
 .about-grid {
@@ -81,7 +81,7 @@
 .about-person {
     justify-self: center;
     text-align: center;
-    background-color: #00577f;
+    background-color: var(--blue);
     padding: 4em;
     border-radius: 8px;
     width: 30em;
@@ -94,7 +94,7 @@
 .about-person h4,
 .about-person p,
 .about-person a {
-    color: white;
+    color: var(--white);
     padding-bottom: 10px;
 }
 
@@ -108,7 +108,7 @@
 }
 
 .about-person a:hover {
-    color: #3F8AD5;
+    color: var(--red);
 }
 
 .about-person img {

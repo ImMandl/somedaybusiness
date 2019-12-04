@@ -2,13 +2,13 @@
     max-width: 1920px;
     display: block;
     margin: 0 auto;
-    background-color: #00577F;
+    background-color: var(--blue);
 }
 
 #footer h4,
 #footer p,
 #footer a {
-    color: white;
+    color: var(--white);
 }
 
 #footer a {
@@ -16,7 +16,7 @@
 }
 
 #footer a:hover {
-    color: #3391cF;
+    color: var(--red);
 }
 
 .footer-wrapper {

@@ -8,7 +8,7 @@
 }
 
 #kontakt h3 {
-    color: #00577f;
+    color: var(--blue);
     padding-bottom: 10px;
 }
 
@@ -21,11 +21,11 @@
     display: flex;
     justify-content: center;
     padding-bottom: 10px;
-    color: #414141;
+    color: var(--grey);
 }
 
 #kontakt a:hover {
-    color: #3391cF;
+    color: var(--red);
 }
 
 #kontakt a i {
