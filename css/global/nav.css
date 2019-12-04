@@ -21,7 +21,7 @@
 
 .header li a:hover,
 .header .menu-btn:hover {
-    color: var(--blue);
+    color: var(--red);
 }
 
 .header .logo {
