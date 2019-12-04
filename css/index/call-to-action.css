@@ -1,10 +1,24 @@
 #call-to-action {
-	margin-bottom: 18em;
+	display: block;
+	margin: 10em auto;
+	max-width: 600px;
+	background-color: var(--blue);
+	border-radius: 12px;
+	padding: 4rem 2rem;
+	overflow: hidden;
 }
 
 #call-to-action .action-text{
 	text-align: center;
 	padding: 0 5%;
+}
+
+#call-to-action .action-text h2 {
+	color: var(--white);
+}
+
+#call-to-action .action-text p {
+	color: var(--white);
 }
 
 /* hentet fra https://www.sanwebe.com/2014/08/css-html-forms-designs. Modifisert i ettertid */ 
@@ -19,14 +33,7 @@
 	padding: 0;
 	display: block;
 	list-style: none;
-    margin: 16px 0 0 0;
-}
-
-.form-style-1 label{
-	margin: 0 0 3px 0;
-	padding: 0px;
-	display: block;
-	font-size: 1.6rem;
+	margin: 3rem 0 0 0;
 }
 
 .form-style-1 input[type=text], 
@@ -39,12 +46,21 @@
 .form-style-1 input[type=email],
 textarea, 
 select{
-	border:1px solid var(--blue);
-	padding: 12px 20px;
-	transition: all 0.30s ease-in-out;
+	padding: 1rem 0;
 	outline: none;	
-    border-radius: 8px;
+	border-bottom: 2px solid var(--white);
+	background-color: var(--blue);
+	color: var(--white);
 }
+
+::placeholder {
+	color: var(--white);
+}
+
+.form-style-1 input[type=placeholder] {
+	color: var(--white);
+}
+
 .form-style-1 input[type=text]:focus, 
 .form-style-1 input[type=date]:focus,
 .form-style-1 input[type=datetime]:focus,
@@ -56,7 +72,6 @@ select{
 .form-style-1 textarea:focus, 
 .form-style-1 select:focus{
 	box-shadow: 0 0 8px var(--blue);
-	border: 1px solid var(--blue);
 }
 .form-style-1 .field-divided{
 	width: 49%;
@@ -72,18 +87,15 @@ select{
 	height: 100px;
 }
 .form-style-1 input[type=submit], .form-style-1 input[type=button]{
-	background: var(--blue);
+	background: var(--white);
 	padding: 12px 20px;
 	border: none;
-    color: var(--white);
     font-size: 1.6rem;
     border-radius: 8px;
 }
 .form-style-1 input[type=submit]:hover, .form-style-1 input[type=button]:hover{
 	background: var(--red);
+	color: var(--white);
 	cursor: pointer;
 	box-shadow:none;
-}
-.form-style-1 .required{
-	color: var(--red);
 }

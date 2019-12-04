@@ -91,36 +91,37 @@
         <section id="call-to-action">
             <div class="action-container">
                 <div class="action-text">
+                    <h2>La oss ta en prat</h2>
                     <p>Legg igjen epost og forslag til møtetidspunkt så bekrefter vi så fort som mulig
                     </p>
                 </div>
                 <div class="action-form">
                     <form action="https://formspree.io/moqqbpge" method="POST">
                         <ul class="form-style-1">
-                            <li><label>Ditt navn: </label>
-                                <input type="text" name="Navn" class="field-divided" placeholder="Fornavn" />
-                                <input type="text" name="Etternavn" class="field-divided" placeholder="Etternavn" />
-                            </li>
-                            <li>
-                                <label>Din Epost: <span class="required">*</span></label>
-                                <input required type="email" name="_replyto" class="field-long"
-                                    placeholder="Epostadresse" />
-                            </li>
-                            <li><label>Dato og tidspunkt: <span class="required">*</span></label>
-                                <input required type="date" name="Dato" class="field-divided" placeholder="Dato" />
-                                <input required type="time" name="Tidspunkt" class="field-divided"
-                                    placeholder="Tidspunkt" />
-                            </li>
-                            <li>
-                            <li>
-                                <label>Melding </label>
-                                <textarea name="Melding" id="field5" class="field-long field-textarea"
-                                    placeholder="Din melding..."></textarea>
-                            </li>
-                            <li>
-                                <input type="submit" value="Kontakt meg!" />
-                            </li>
-                        </ul>
+                            <ul class="form-style-1">
+                                <li>
+                                    <input type="text" name="name" class="field-divided" placeholder="Fornavn" />
+                                    <input type="text" name="lastname" class="field-divided" placeholder="Etternavn" />
+                                </li>
+                                <li>
+                                    <input required type="email" name="_replyto" class="field-long"
+                                        placeholder="Epostadresse *" />
+                                </li>
+                                <li>
+                                    <input required type="date" name="date" class="field-divided"
+                                        placeholder="Dato *" />
+                                    <input required type="time" name="time" class="field-divided"
+                                        placeholder="Tidspunkt *" />
+                                </li>
+                                <li>
+                                <li>
+                                    <textarea name="message" id="message" class="field-long field-textarea"
+                                        placeholder="Din melding..."></textarea>
+                                </li>
+                                <li>
+                                    <input type="submit" value="Kontakt meg!" />
+                                </li>
+                            </ul>
                     </form>
                 </div>
             </div>

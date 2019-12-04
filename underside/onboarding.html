@@ -135,22 +135,21 @@
                 <div class="action-form">
                     <form action="https://formspree.io/moqqbpge" method="POST">
                         <ul class="form-style-1">
-                            <li><label>Ditt navn: </label>
+                            <li>
                                 <input type="text" name="name" class="field-divided" placeholder="Fornavn" />
                                 <input type="text" name="lastname" class="field-divided" placeholder="Etternavn" />
                             </li>
                             <li>
-                                <label>Din Epost: <span class="required">*</span></label>
                                 <input required type="email" name="_replyto" class="field-long"
-                                    placeholder="Epostadresse" />
+                                    placeholder="Epostadresse *" />
                             </li>
-                            <li><label>Dato og tidspunkt: <span class="required">*</span></label>
-                                <input required type="date" name="date" class="field-divided" placeholder="Dato" />
-                                <input required type="time" name="time" class="field-divided" placeholder="Tidspunkt" />
+                            <li>
+                                <input required type="date" name="date" class="field-divided" placeholder="Dato *" />
+                                <input required type="time" name="time" class="field-divided"
+                                    placeholder="Tidspunkt *" />
                             </li>
                             <li>
                             <li>
-                                <label>Melding </label>
                                 <textarea name="message" id="message" class="field-long field-textarea"
                                     placeholder="Din melding..."></textarea>
                             </li>
