@@ -74,10 +74,10 @@ a {
     font-weight: 500;
     line-height: 1.6;
 }
-
 a:hover {
     color: #00577F;
 }
+
 
 /* ----- Tablet size ----- */
 @media only screen and (max-width: 768px) {
