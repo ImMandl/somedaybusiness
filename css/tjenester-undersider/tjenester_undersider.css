@@ -205,15 +205,6 @@ main {
     .trinn-fa{
         display: none;
     }
-
-    .call-img{
-        display: none;
-    }
-    #call-to-wrap{
-        display: block;
-        margin: 0 auto;
-    }
-
 }
 
 
