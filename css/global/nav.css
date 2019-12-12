@@ -22,24 +22,23 @@
 
 .header li a:hover,
 .header .menu-btn:hover {
-    color: var(--red);
+    color: var(--blue);
 }
 
 .header-btn{
     display: block;
     text-decoration: none;
     color: var(--white);
-    background-color: var(--red);
+    background-color: var(--blue);
     border-radius: 6px;
     text-align: center;
-    padding: 10px 20px;
-    border: 3px solid var(--red);
+    border: 3px solid var(--blue);
 }
 
 .header-btn:hover {
-    color: var(--red);
+    color: var(--blue);
     background-color: var(--white);
-    border: 3px solid var(--red);
+    border: 3px solid var(--blue);
 }
 
 .header .logo {
@@ -126,7 +125,7 @@
 }
 
 /* ----- Fikser burger meny ------ */
-@media only screen and (min-width: 800px) {
+@media only screen and (min-width: 900px) {
     .header li {
         float: left;
     }
@@ -141,5 +140,9 @@
         display: none;
         float: right;
     }
+}
+
+@media only screen and (max-width: 900px) {
+    
 }
 
