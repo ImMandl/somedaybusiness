@@ -6,13 +6,24 @@ main {
 
 /* Title */
 #title {
-    padding: 0 5%;
-    max-width: 1700px;
-    margin: 10em 0 5em;
+    padding-left: 5%;
+    margin: 10em 0 10em;
 }
 
-#title h2 {
-    font-size: 4rem;
+.title-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(30em, 1fr));
+    gap: 20px;
+}
+
+.title-img {
+    height: 400px;
+}
+
+.title-img img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
 }
 
 /* Trinn */
