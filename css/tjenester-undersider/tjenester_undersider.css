@@ -97,8 +97,8 @@ main {
 
 /* Prosess */
 #prosess {
-    margin: 10em 0 10em;
-    padding: 8em 0 8em 0;
+    margin: 10em 0 14em;
+    padding: 8em 0 8em 5%;
     background-color: var(--blue);
 }
 
@@ -109,11 +109,11 @@ main {
 }
 
 .prosess-tekst-left {
-    padding-left: 5%;
+    padding: 0 0 0 5%;
 }
 
 .prosess-tekst-right {
-    padding-right: 5%;
+    padding: 0 5% 0 0 ;
 }
 
 .prosess-tekst p, .prosess-tekst h2 {
@@ -139,14 +139,21 @@ main {
     color: var(--grey);
 }
 
-#call-to-action {
-    margin: 2em auto 10em;
+#call-to-action { /* fungerer for både retail og culture */
+    margin: 3em auto 10em;
 }
 
 /* culture */
-
 .culture-prosess { /* class som er lagt på nederste grid i prosess på culture */
     padding-top: 8em;
+}
+
+.call-title-culture {
+    text-align: center;
+}
+
+.call-title-culture h4 {
+    color: var(--grey);
 }
 
 
