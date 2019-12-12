@@ -12,7 +12,7 @@ main {
 
 .title-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(34em, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(20em, 1fr));
     gap: 20px;
 }
 
@@ -75,13 +75,13 @@ main {
 
 /* Produkt */
 #produkt {
-    padding: 0 5%;
+    padding-right: 5%;
     margin: 12em 0 10em;
 }
 
 .produkt-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(34em, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(20em, 1fr));
     gap: 20px;
 }
 
@@ -104,7 +104,7 @@ main {
 
 .prosess-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(34em, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(20em, 1fr));
     gap: 20px;
 }
 
