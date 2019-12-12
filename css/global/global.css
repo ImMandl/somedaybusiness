@@ -81,7 +81,7 @@ a {
     line-height: 1.6;
 }
 a:hover {
-    color: var(--blue);
+    color: var(--red);
 }
 
 
