@@ -13,7 +13,7 @@ main {
 .title-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(20em, 1fr));
-    gap: 20px;
+    gap: 40px;
 }
 
 .title-img {
@@ -82,7 +82,7 @@ main {
 .produkt-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(20em, 1fr));
-    gap: 20px;
+    gap: 40px;
 }
 
 .produkt-img {
@@ -97,7 +97,7 @@ main {
 
 /* Prosess */
 #prosess {
-    margin: 10em 0 10em;
+    margin: 10em 0 14em;
     padding: 8em 0 8em 5%;
     background-color: var(--blue);
 }
@@ -105,7 +105,15 @@ main {
 .prosess-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(20em, 1fr));
-    gap: 20px;
+    gap: 40px;
+}
+
+.prosess-tekst-left {
+    padding: 0 0 0 5%;
+}
+
+.prosess-tekst-right {
+    padding: 0 5% 0 0 ;
 }
 
 .prosess-tekst p, .prosess-tekst h2 {
@@ -122,16 +130,30 @@ main {
     object-fit: cover;
 }
 
-/* culture */
-.produkt-bilder-culture {
-    height: 60em;
-    max-height: 60em;
-    display: grid;
-    justify-content: center;
+/* retail */
+.call-title-retail {
+    text-align: center;
 }
 
-.produkt-bilder-culture img {
-    height: 100%
+.call-title-retail h4 {
+    color: var(--grey);
+}
+
+#call-to-action { /* fungerer for både retail og culture */
+    margin: 3em auto 10em;
+}
+
+/* culture */
+.culture-prosess { /* class som er lagt på nederste grid i prosess på culture */
+    padding-top: 8em;
+}
+
+.call-title-culture {
+    text-align: center;
+}
+
+.call-title-culture h4 {
+    color: var(--grey);
 }
 
 /*Call to action*/

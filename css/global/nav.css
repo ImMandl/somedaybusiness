@@ -22,7 +22,7 @@
 
 .header li a:hover,
 .header .menu-btn:hover {
-    color: var(--blue);
+    color: var(--red);
 }
 
 .header-btn{
@@ -36,9 +36,8 @@
 }
 
 .header-btn:hover {
-    color: var(--blue);
     background-color: var(--white);
-    border: 3px solid var(--blue);
+    border: 3px solid var(--red);
 }
 
 .header .logo {
