@@ -12,7 +12,7 @@ main {
 
 .title-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(34em, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(20em, 1fr));
     gap: 20px;
 }
 
@@ -81,7 +81,7 @@ main {
 
 .produkt-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(34em, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(20em, 1fr));
     gap: 20px;
 }
 
@@ -104,7 +104,7 @@ main {
 
 .prosess-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(34em, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(20em, 1fr));
     gap: 20px;
 }
 
@@ -156,8 +156,10 @@ main {
     .fa-chevron-right{
         font-size: 4rem;
     }
+    
     .trinn-grid{
-        width: 100%;
+        max-width: 100%;
+        border-radius: 0;
     }
     .trinn{
         width: 100%;
@@ -185,6 +187,9 @@ main {
     .trinn-artikkel h3 {
         text-align: center;
     }
+    .trinn-fa{
+        display: none;
+    }
 }
 
 
@@ -198,6 +203,23 @@ main {
     .produkt-bilder-culture {
         display: grid;
         justify-content: center;
+    }
+
+    .fa-chevron-right{
+        font-size: 2rem;
+    }
+
+    .trinn-artikkel h3{
+        font-size: 4rem;
+    }
+
+    .trinn-artikkel p{
+        font-size: 1.6rem;
+    }
+    
+    .trinn-grid {
+        display: grid;
+        grid-auto-flow: row;
     }
 }
 
