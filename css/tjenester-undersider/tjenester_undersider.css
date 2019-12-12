@@ -157,6 +157,33 @@ main {
     margin: 3em auto 10em;
 } 
 
+#call-to-wrap{
+    width: 100%;
+    background-color: var(--blue);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    align-content: center;
+}
+
+#call-to-wrap #call-to-action {
+    margin-top: 3rem;
+    width: 100%;
+    border-radius: 0;
+    padding: 100px 0 0 0;
+    margin:0;
+}
+.call-img{
+    overflow: hidden;
+    max-height: 64rem;
+
+}
+
+.call-img img{
+    width: 100%;
+    object-fit: cover;
+    height: 100%;
+}
 
 /* ----- LATPTOP ------ */
 @media only screen and (max-width: 10240px) {
@@ -213,6 +240,15 @@ main {
     .trinn-fa{
         display: none;
     }
+
+    .call-img{
+        display: none;
+    }
+    #call-to-wrap{
+        display: block;
+        margin: 0 auto;
+    }
+
 }
 
 
