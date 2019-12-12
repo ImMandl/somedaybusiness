@@ -16,28 +16,51 @@ main {
 }
 
 /* Trinn */
-.trinn {
-    max-width: 1700px;
+#trinn {
+    text-align: center;
+    
+}
+
+#trinn h2{
+    margin-bottom: 2rem;
 }
 
 .trinn-artikkel {
     overflow: hidden;
-    margin: 0 0 10em 0;
-    max-width: 35em;
+    max-width: 25em;
     justify-self: center;
+
+    text-align: center;
 }
 
 .trinn-artikkel h3 {
-    color: #00577F;
+    color: var(--white);
     font-size: 6rem;
 }
 
-.trinn-grid {
-    padding: 0 5%;
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(20em, 1fr));
-    gap: 40px;
+.trinn-artikkel p {
+    color: var(--white);
 }
+
+.trinn-grid {
+    padding: 3rem 0;
+    display: grid;
+    grid-auto-flow: column;
+    gap: 40px;
+    align-items: center;
+
+    max-width: 120rem;
+    background-color: var(--blue);
+    border-radius: 12px;
+    margin: 0 auto;
+}
+
+/*Arrow icon*/
+.fa-chevron-right{
+    font-size: 6rem;
+    color: var(--white);
+}
+
 
 /* Produkt */
 .produkt {
