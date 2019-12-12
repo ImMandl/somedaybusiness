@@ -99,3 +99,13 @@ select{
 	cursor: pointer;
 	box-shadow:none;
 }
+
+@media only screen and (max-width: 768px) {
+	.call-img{
+        display: none;
+    }
+    #call-to-wrap{
+        display: block;
+        margin: 0 auto;
+    }
+}
