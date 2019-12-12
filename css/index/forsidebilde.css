@@ -1,53 +1,88 @@
 #forsidebilde {
-    position: relative;
     height: 100vh;
     min-height: 100vh;
 }
 
+#forsidebilde p{
+    padding-top: 10rem;
+    color: var(--white);
+}
+
+.forside-heart{
+    font-size: 3rem;
+    color: var(--red);
+}
+
 #forsidebilde .img {
-    background-image: url(../../assets/img/header-bilde.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)),
+     url(../../assets/img/header-bilde.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 100%;
-    width: 100%;
+    background-position: center;
+    position: relative;
+    height: 100vh;
 }
 
 #forsidebilde .header-text {
     position: absolute;
-    top: 28em;
-    left: 6%;
-    width: 40em;
+    
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    display: grid; 
+    grid-auto-flow: row;
+    justify-items: center;
+    text-align: center;
+    gap: 2rem;
 }
 
 /* knapper */
-#forsidebilde .btn-outline {
+.forside-wrap{
+    display: grid;
+    grid-template-columns: 20rem 20rem;
+    gap: 2rem;
+    justify-items: center;
+}
+
+#forsidebilde #btn-forside1 {
+    background-color: var(--blue);
+    border: 3px solid var(--blue)
+}
+#forsidebilde #btn-forside2 {
+    background-color: var(--red);
+    border: 3px solid var(--red)
+}
+
+#forsidebilde .btn-forside {
     /* knappen i header og nyhets seksjonene */
     font-size: 1.6rem;
     display: block;
     text-decoration: none;
     color: var(--white);
-    border: 2px solid var(--white);
     border-radius: 6px;
     width: 10em;
     line-height: 5rem;
     text-align: center;
-    margin-top: 2em;
     transition: color 0.5s;
 }
 
-#forsidebilde .btn-outline:hover {
+/*Hover effects*/
+#forsidebilde #btn-forside1:hover {
     color: var(--blue);
     background-color: var(--white);
+    border: 3px solid var(--blue)
+}
+#forsidebilde #btn-forside2:hover {
+    color: var(--red);
+    background-color: var(--white);
+    border: 3px solid var(--red)
 }
 
 /* ----- Laptop size - 1024px ------ */
 @media only screen and (max-width: 1024px) {
     #forsidebilde {
         min-height: 800px
-    }
-
-    #forsidebilde .img {
-        background-image: url(../../assets/img/header-bilde-1200px.jpg);
     }
 
     #forsidebilde .header-text {
@@ -64,10 +99,6 @@
         min-height: 500px;
     }
 
-    #forsidebilde .img {
-        background-image: url(../../assets/img/header-bilde-768px.jpg);
-    }
-
     #forsidebilde .header-text {
         top: 24em;
         width: 26em;
@@ -79,10 +110,6 @@
 @media only screen and (max-width: 425px) {
     #forsidebilde {
         min-height: 630px;
-    }
-
-    #forsidebilde .img {
-        background-image: url(../../assets/img/header-bilde-425px.jpg);
     }
 
     #forsidebilde .header-text {
