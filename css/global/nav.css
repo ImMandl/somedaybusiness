@@ -15,13 +15,31 @@
 
 .header li a {
     display: block;
-    padding: 20px 20px;
+    padding: 10px 20px;
+    margin: 0px 5px;
     text-decoration: none;
 }
 
 .header li a:hover,
 .header .menu-btn:hover {
     color: var(--red);
+}
+
+.header-btn{
+    display: block;
+    text-decoration: none;
+    color: var(--white);
+    background-color: var(--red);
+    border-radius: 6px;
+    text-align: center;
+    padding: 10px 20px;
+    border: 3px solid var(--red);
+}
+
+.header-btn:hover {
+    color: var(--red);
+    background-color: var(--white);
+    border: 3px solid var(--red);
 }
 
 .header .logo {
@@ -111,10 +129,6 @@
 @media only screen and (min-width: 800px) {
     .header li {
         float: left;
-    }
-
-    .header li a {
-        padding: 20px 30px;
     }
 
     .header .menu {
