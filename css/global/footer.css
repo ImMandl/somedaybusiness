@@ -3,6 +3,7 @@
     display: block;
     margin: 0 auto;
     background-color: var(--blue);
+    padding-top: 8em;
 }
 
 #footer h4,
