@@ -12,7 +12,7 @@ main {
 
 .title-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(30em, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(34em, 1fr));
     gap: 20px;
 }
 
@@ -74,45 +74,53 @@ main {
 
 
 /* Produkt */
-.produkt {
-    max-width: 1700px;
+#produkt {
     padding: 0 5%;
-    display: block;
-    margin: 0 auto;
-    margin-bottom: 10em;
-}
-
-.produkt h3 {
-    color: var(--blue);
-    margin-top: 1.4em;
-}
-
-.produkt p {
-    margin-bottom: 20px;
-    line-height: 1.8;
+    margin: 12em 0 10em;
 }
 
 .produkt-grid {
     display: grid;
-    gap: 5em;
+    grid-template-columns: repeat(auto-fit, minmax(34em, 1fr));
+    gap: 20px;
 }
 
-.produkt-bilder {
-    height: 60em;
-    max-height: 60em;
-    margin-bottom: 10em;
+.produkt-img {
+    height: 400px;
 }
 
-.produkt-bilder img {
-    height: 100%
+.produkt-img img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
 }
 
-.produkt-beskrivelse {
-    max-width: 1700px;
-    columns: 2;
-    gap: 60px;
+/* Prosess */
+#prosess {
+    margin: 10em 0 10em;
+    padding: 8em 0 8em 5%;
+    background-color: var(--blue);
 }
 
+.prosess-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(34em, 1fr));
+    gap: 20px;
+}
+
+.prosess-tekst p, .prosess-tekst h2 {
+    color: var(--white);
+}
+
+.prosess-img {
+    height: 400px;
+}
+
+.prosess-img img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
 
 /* culture */
 .produkt-bilder-culture {
