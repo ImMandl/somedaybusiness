@@ -130,18 +130,6 @@ main {
     object-fit: cover;
 }
 
-/* retail */
-.call-title-retail {
-    text-align: center;
-}
-
-.call-title-retail h4 {
-    color: var(--grey);
-}
-
-#call-to-action { /* fungerer for både retail og culture */
-    margin: 3em auto 10em;
-}
 
 /* culture */
 .culture-prosess { /* class som er lagt på nederste grid i prosess på culture */
@@ -155,6 +143,19 @@ main {
 .call-title-culture h4 {
     color: var(--grey);
 }
+
+/* call to action */
+.call-title {
+    text-align: center;
+}
+
+.call-title h4 {
+    color: var(--grey);
+}
+
+#call-to-action { 
+    margin: 3em auto 10em;
+} 
 
 
 /* ----- LATPTOP ------ */
