@@ -4,7 +4,6 @@
 }
 
 #forsidebilde p{
-    padding-top: 10rem;
     color: var(--white);
 }
 
@@ -40,7 +39,7 @@
 /* knapper */
 .forside-wrap{
     display: grid;
-    grid-template-columns: 20rem 20rem;
+    grid-template-columns: 16rem 16rem;
     gap: 2rem;
     justify-items: center;
 }
@@ -79,46 +78,8 @@
     border: 3px solid var(--red)
 }
 
-/* ----- Laptop size - 1024px ------ */
-@media only screen and (max-width: 1024px) {
-    #forsidebilde {
-        min-height: 800px
-    }
-
-    #forsidebilde .header-text {
-        top: 24em;
-        left: 5%;
-        width: 40em;
-    }
-
-}
-
-/* ----- Tablet size - 768px ----- */
-@media only screen and (max-width: 768px) {
-    #forsidebilde {
-        min-height: 500px;
-    }
-
-    #forsidebilde .header-text {
-        top: 24em;
-        width: 26em;
-    }
-
-}
-
 /* ---- Phone size - 425px ----- */
 @media only screen and (max-width: 425px) {
-    #forsidebilde {
-        min-height: 630px;
-    }
-
-    #forsidebilde .header-text {
-        top: 48em;
-        width: 80%;
-        text-align: center;
-        left: 10%;
-    }
-
     #forsidebilde .btn-outline {
         font-size: 1.2rem;
         line-height: 3rem;
@@ -127,10 +88,6 @@
         margin-top: 2.4em;
         padding: 8px 0;
         font-size: 1.6rem;
-    }
-
-    #forside .btn-outline {
-        text-align: center;
     }
 
 }
