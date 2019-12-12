@@ -114,18 +114,21 @@ select{
 }
 
 .form-style-1 input[type=submit], .form-style-1 input[type=button]{
-	background: var(--white);
+	background: var(--red);
+	color: var(--white);
 	padding: 12px 20px;
 	border: none;
-    font-size: 1.6rem;
+	font-size: 1.6rem;
+	border: 3px solid var(--red);
     border-radius: 8px;
 }
 
 .form-style-1 input[type=submit]:hover, .form-style-1 input[type=button]:hover{
-	background: var(--red);
-	color: var(--white);
+	background: transparent;
+	color: var(--red);
 	cursor: pointer;
 	box-shadow:none;
+	border: 3px solid var(--red);
 }
 
 @media only screen and (max-width: 768px) {

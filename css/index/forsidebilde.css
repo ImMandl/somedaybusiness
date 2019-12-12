@@ -70,12 +70,12 @@
 /*Hover effects*/
 #forsidebilde #btn-forside1:hover {
     color: var(--blue);
-    background-color: var(--white);
+    background-color: transparent;
     border: 3px solid var(--blue)
 }
 #forsidebilde #btn-forside2:hover {
     color: var(--red);
-    background-color: var(--white);
+    background-color: transparent;
     border: 3px solid var(--red)
 }
 

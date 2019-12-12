@@ -29,15 +29,17 @@
     display: block;
     text-decoration: none;
     color: var(--white);
-    background-color: var(--blue);
+    background-color: var(--red);
     border-radius: 6px;
     text-align: center;
-    border: 3px solid var(--blue);
+    border: 3px solid var(--red);
+    transition: 0.5s;
 }
 
 .header-btn:hover {
-    background-color: var(--white);
+    background-color: transparent;
     border: 3px solid var(--red);
+    color: var(--red);
 }
 
 .header .logo {
