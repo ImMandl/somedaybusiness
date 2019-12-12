@@ -139,6 +139,23 @@ main {
     }
 }
 
+/* ----- PRO ------ */
+@media only screen and (max-width: 900px){
+    .trinn-artikkel {
+        max-width: 20em;
+    }
+
+    .fa-chevron-right{
+        font-size: 4rem;
+    }
+    .trinn-grid{
+        width: 100%;
+    }
+    .trinn{
+        width: 100%;
+    }
+}
+
 /* ----- TABLET ------ */
 @media only screen and (max-width: 768px) {
     .produkt-bilder {
@@ -161,6 +178,7 @@ main {
         text-align: center;
     }
 }
+
 
 /* ----- PHONE ------ */
 @media only screen and (max-width: 514px) {
