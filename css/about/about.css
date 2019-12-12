@@ -46,7 +46,7 @@
 }
 
 .about-start h2 {
-    color: var(--blue);
+    color: var(--red);
     font-size: 3rem;
 }
 
@@ -62,8 +62,8 @@
     margin: 0 auto 1em;
 }
 
-.about-grid-title h2 {
-    color: var(--blue);
+.about-title h2 {
+    color: var(--red);
 }
 
 .about-grid {

@@ -2,7 +2,7 @@
     font-size: 62.5%;
 
     --blue: #00577f;
-    --red: #1C94D7;
+    --red: #E34266;
     --grey: #383637;
     --white: #ffffff;
 }
@@ -81,7 +81,7 @@ a {
     line-height: 1.6;
 }
 a:hover {
-    color: var(--blue);
+    color: var(--red);
 }
 
 
