@@ -107,7 +107,7 @@ main {
 /* Prosess */
 #prosess {
     margin: 10em 0 14em;
-    padding: 8em 0 8em 5%;
+    padding: 8em 0;
     background-color: var(--blue);
 }
 
