@@ -91,3 +91,11 @@
     }
 
 }
+
+/* ---- Phone size - 375px ----- */
+@media only screen and (max-width: 375px) {
+    .forside-wrap{
+        grid-template-columns: 16rem;
+    }
+
+}
