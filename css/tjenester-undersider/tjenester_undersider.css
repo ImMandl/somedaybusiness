@@ -20,7 +20,7 @@ main {
 
 .title-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(40em, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(20em, 1fr));
     gap: 40px;
 }
 
@@ -94,7 +94,7 @@ main {
 
 .produkt-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(40em, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(20em, 1fr));
     gap: 40px;
 }
 
@@ -117,7 +117,7 @@ main {
 
 .prosess-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(40em, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(20em, 1fr));
     gap: 40px;
 }
 
@@ -240,11 +240,32 @@ main {
     .bigscreen {
         display: none;
     }
+
+    .title-grid, .prosess-grid, .produkt-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    #title, .produkt-tekst, .prosess-tekst-left, .prosess-tekst-right, .call-title  {
+        padding: 0 5% 0 5%;
+    }
+
+    #produkt {
+        padding: 0;
+        margin: 0;
+    }
+
+    #prosess {
+        padding: 0;
+    }
+
+    .prosess-tekst-right {
+        padding-bottom: 6em;
+    }
 }
 
 
 /* ----- PHONE ------ */
-@media only screen and (max-width: 514px) {
+@media only screen and (max-width: 530px) {
     .produkt-bilder {
         height: 20em;
         max-height: 20em;
@@ -279,5 +300,6 @@ main {
         height: 14em;
         max-height: 14em;
     }
+
 }
 

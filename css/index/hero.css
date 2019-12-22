@@ -1,0 +1,97 @@
+#hero {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-items: center;
+    height: 900px;
+    width: 100%;
+    background-image: linear-gradient(176deg, var(--blue) 70%, #ffffff calc(70% + 2px))
+}
+
+.hero-text {
+    padding: 0 5% 20em 10%;
+}
+
+.hero-text p {
+    color: white;
+    margin-bottom: 1.2em;
+}
+
+
+/* knapper */
+
+#btn-hero2 {
+    background-color: var(--red);
+    border: 3px solid var(--red)
+}
+
+#hero .btn-hero {
+    /* knappen i header og nyhets seksjonene */
+    font-size: 1.6rem;
+    display: block;
+    text-decoration: none;
+    color: var(--white);
+    border-radius: 6px;
+    width: 10em;
+    line-height: 5rem;
+    text-align: center;
+    transition: color 0.5s;
+}
+
+/*Hover effects*/
+#btn-hero2:hover {
+    color: var(--red);
+    background-color: transparent;
+    border: 3px solid var(--red)
+}
+
+/* ---- Phone size - 425px ----- */
+@media only screen and (max-width: 425px) {
+    #hero .btn-outline {
+        font-size: 1.2rem;
+        line-height: 3rem;
+        width: 10em;
+        margin: 0 auto;
+        margin-top: 2.4em;
+        padding: 8px 0;
+        font-size: 1.6rem;
+    }
+
+}
+
+
+.hero-image {
+}
+
+.hero-image img {
+    height: 700px;
+}
+
+/* ---- Tablet ---- */
+@media only screen and (max-width: 768px) {
+    #hero {
+        height: 700px;
+    }
+
+
+    .hero-image img {
+        height: 500px;
+    }
+}
+
+/* ---- Phone ---- */
+@media only screen and (max-width: 768px) {
+    #hero {
+        height: 900px;
+        grid-template-columns: 1fr;
+
+    }
+
+    .hero-text {
+        padding: 5em 5% 5em 10%;
+    }
+
+    .hero-image img {
+        height: 500px;
+    }
+}
