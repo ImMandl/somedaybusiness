@@ -1,6 +1,6 @@
 #hero {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 65% 35%;
     align-items: center;
     justify-items: center;
     height: 900px;
@@ -17,9 +17,16 @@
     margin-bottom: 1.2em;
 }
 
+.hero-image {
+    justify-self: left;
+}
+
+.hero-image img {
+    height: 700px;
+}
+
 
 /* knapper */
-
 #btn-hero2 {
     background-color: var(--red);
     border: 3px solid var(--red)
@@ -59,13 +66,6 @@
 
 }
 
-
-.hero-image {
-}
-
-.hero-image img {
-    height: 700px;
-}
 
 /* ---- Tablet ---- */
 @media only screen and (max-width: 768px) {
