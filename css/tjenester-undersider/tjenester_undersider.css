@@ -1,17 +1,9 @@
-main {
-    margin: 0 auto;
-    margin-top: 10em;
-    display: block;
-}
-
 .smallscreen {
     display: none;
 }
 
 /* Title */
 #title {
-    padding-left: 5%;
-    margin: 10em 0 10em;
 }
 
 #title h2 {
@@ -20,12 +12,21 @@ main {
 
 .title-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(20em, 1fr));
-    gap: 40px;
+    grid-template-columns: 60% 40%;
+    gap: 20px;
+    align-items: center;
+    justify-items: center;
+    width: 100%;
+    margin: 5em 0 10em;
+}
+
+.title-tekst {
+    padding: 0 0 20em 10%;
 }
 
 .title-img {
-    height: 400px;
+    height: 600px;
+    justify-self: left;
 }
 
 .title-img img {
@@ -96,6 +97,7 @@ main {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(20em, 1fr));
     gap: 40px;
+    align-items: center;
 }
 
 .produkt-img {
@@ -119,6 +121,7 @@ main {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(20em, 1fr));
     gap: 40px;
+    align-items: center;
 }
 
 .prosess-tekst-left {
@@ -209,6 +212,16 @@ main {
 
 /* ----- TABLET ------ */
 @media only screen and (max-width: 768px) {
+    .title-tekst {
+        padding: 10em 5% 1em 5%;
+    }
+    
+    .title-img {
+        height: 500px;
+        justify-self: center;
+        padding-bottom: 5em;
+    }
+
     .produkt-bilder {
         height: 30em;
         max-height: 30em;
@@ -223,6 +236,14 @@ main {
 
     .produkt-beskrivelse {
         columns: 1;
+    }
+
+    #trinn {
+        text-align: left;
+    }
+    
+    #trinn h2 {
+        padding: 0 5%;
     }
 
     .trinn-artikkel h3 {
