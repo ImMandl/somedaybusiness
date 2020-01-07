@@ -2,7 +2,8 @@
     display: block;
     margin: 0 auto;
     background-color: var(--blue);
-    padding-top: 8em;
+    padding-top: 4em;
+    padding-bottom: 2em;
 }
 
 #footer h4,
@@ -30,7 +31,7 @@
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     justify-content: center;
     align-content: center;
-    padding: 8em 5% 1.6em;
+    padding: 4em 5% 1.6em;
 }
 
 /* første rad */

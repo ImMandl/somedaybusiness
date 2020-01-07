@@ -67,21 +67,24 @@
 .form-style-1 input[type=time],
 .form-style-1 input[type=url],
 .form-style-1 input[type=email],
-textarea, 
-select{
+.form-style-1 textarea, 
+.form-style-1 select{
 	padding: 1rem 0;
 	outline: none;	
 	border-bottom: 2px solid var(--white);
-	background-color: var(--blue);
-	color: var(--white);
+	background-color: whitesmoke;
+	padding: 10px;
+	border-radius: 6px;
+	color: var(--grey);
+	font-family: 'Roboto', sans-serif;
 }
 
 ::placeholder {
-	color: var(--white);
+	color: var(--grey);
 }
 
 .form-style-1 input[type=placeholder] {
-	color: var(--white);
+	color: var(--grey);
 }
 
 .form-style-1 input[type=text]:focus, 
@@ -94,7 +97,7 @@ select{
 .form-style-1 input[type=email]:focus,
 .form-style-1 textarea:focus, 
 .form-style-1 select:focus{
-	box-shadow: 0 0 8px var(--blue);
+	box-shadow: 0 0 6px var(--red);
 }
 
 .form-style-1 .field-divided{
@@ -119,16 +122,14 @@ select{
 	padding: 12px 20px;
 	border: none;
 	font-size: 1.6rem;
-	border: 3px solid var(--red);
+	line-height: 2em;
     border-radius: 8px;
 }
 
 .form-style-1 input[type=submit]:hover, .form-style-1 input[type=button]:hover{
-	background: transparent;
-	color: var(--red);
+	background-color: var(--darkred);
 	cursor: pointer;
 	box-shadow:none;
-	border: 3px solid var(--red);
 }
 
 /* ----- Tablet ------ */

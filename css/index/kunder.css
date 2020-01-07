@@ -1,11 +1,11 @@
 #kunder {
-    max-width: 1200px;
-    display: block;
-    margin: 0 auto 1em;
+    margin: 20em 0 20em 0;
 }
 
 .kunde-container {
-    margin: 20em 0 26em 0;
+    max-width: 1200px;
+    display: block;
+    margin: 0 auto 1em;
 }
 
 .kunde-tekst {
