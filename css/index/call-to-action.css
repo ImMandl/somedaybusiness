@@ -72,7 +72,7 @@
 	padding: 1rem 0;
 	outline: none;	
 	border-bottom: 2px solid var(--white);
-	background-color: whitesmoke;
+	background-color: var(--white);
 	padding: 10px;
 	border-radius: 6px;
 	color: var(--grey);
