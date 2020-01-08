@@ -49,6 +49,36 @@
     background-color: var(--darkred);
 }
 
+
+/* ---Fix for IMG --- */
+/*Changes size to fit screen*/
+@media only screen and (max-width: 990px){
+    .hero-image img{
+        height: 500px;
+    }
+}
+
+/* ---- Tablet ---- */
+@media only screen and (max-width: 768px) {
+    #hero {
+        height: 900px;
+        grid-template-columns: 1fr;
+    }
+
+    .hero-image{
+        justify-self: center;
+    }
+
+    .hero-image img {
+        height: 500px;
+    }
+
+
+    .hero-text {
+        padding: 5em 5% 5em 10%;
+    }
+}
+
 /* ---- Phone size - 425px ----- */
 @media only screen and (max-width: 425px) {
     #hero .btn-outline {
@@ -61,34 +91,4 @@
         font-size: 1.6rem;
     }
 
-}
-
-
-/* ---- Tablet ---- */
-@media only screen and (max-width: 768px) {
-    #hero {
-        height: 700px;
-    }
-
-
-    .hero-image img {
-        height: 500px;
-    }
-}
-
-/* ---- Phone ---- */
-@media only screen and (max-width: 768px) {
-    #hero {
-        height: 900px;
-        grid-template-columns: 1fr;
-
-    }
-
-    .hero-text {
-        padding: 5em 5% 5em 10%;
-    }
-
-    .hero-image img {
-        height: 500px;
-    }
 }
