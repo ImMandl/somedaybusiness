@@ -12,7 +12,7 @@
 
 .title-grid {
     display: grid;
-    grid-template-columns: 60% 40%;
+    grid-template-columns: 1fr 1fr;
     gap: 20px;
     align-items: center;
     justify-items: center;
