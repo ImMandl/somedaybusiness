@@ -82,7 +82,7 @@ p {
 
 .a{
     color: var(--white);
-
+    font-size: 2.4rem;
     -webkit-animation: fadeinOut 3s infinite linear;
     -moz-animation: fadeinOut 3s infinite linear;
     -o-animation: fadeinOut 3s infinite linear;

@@ -9,7 +9,7 @@ let count = 0
 
 // changes the inner HTML 
 const changer = () => {
-    dynamic.innerHTML=`<p><b>Check out our programs: <a href='#programs' class='a' >${arr[count]}</a></b></p>`
+    dynamic.innerHTML=`<h3><b>Check out our programs: <a href='#programs' class='a' >${arr[count]}</a></b></h3>`
     
     if(count >= length-1){
         count= 0;
