@@ -32,6 +32,10 @@ body {
     max-width: 1920px;
 }
 
+main{
+    z-index: 0;
+}
+
 /* --- Text ----- */
 h1 {
     font-size: 4rem;
