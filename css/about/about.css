@@ -81,7 +81,7 @@
 .about-person {
     justify-self: center;
     background-color: var(--blue);
-    border-radius: 8px;
+    border-radius: 10px;
     max-width: 30em;
     overflow: hidden;
     word-wrap: break-word;

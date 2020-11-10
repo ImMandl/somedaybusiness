@@ -1,11 +1,12 @@
 #hero {
     display: grid;
-    grid-template-columns: 65% 35%;
+    grid-template-columns: 50% 50%;
     align-items: center;
     justify-items: center;
+    overflow: hidden;
     height: 850px;
     width: 100%;
-    background-image: linear-gradient(176deg, var(--blue) 70%, #ffffff calc(70% + 2px))
+    background-image: linear-gradient(176deg, var(--blue) 70%, #f6f6f6 calc(70% + 2px))
 }
 
 .hero-text {
@@ -17,44 +18,31 @@
     margin-bottom: 1.2em;
 }
 
-.hero-image {
-    justify-self: left;
+.hero-image{
+    float: right;
 }
 
 .hero-image img {
-    height: 700px;
+    width: 100%;
+    height: auto;
+
+    max-width: 600px;
 }
 
-
-/* knapper */
-#btn-hero2 {
-    background-color: var(--red);
+.hero-dynamic{
+    display: inline-flex;
 }
 
-#hero .btn-hero {
-    /* knappen i header og nyhets seksjonene */
-    font-size: 1.6rem;
-    display: block;
-    text-decoration: none;
-    color: var(--white);
-    border-radius: 6px;
-    width: 9em;
-    line-height: 6rem;
-    text-align: center;
-    transition: .2s;
+.dynamic{
+    padding-left: 0.5rem;
 }
-
-/*Hover effects*/
-#btn-hero2:hover {
-    background-color: var(--darkred);
-}
-
 
 /* ---Fix for IMG --- */
 /*Changes size to fit screen*/
 @media only screen and (max-width: 990px){
     .hero-image img{
         height: 500px;
+        width: auto;
     }
 }
 
@@ -65,18 +53,16 @@
         grid-template-columns: 1fr;
     }
 
-    .hero-image{
+    .hero-image img{
         justify-self: center;
+        width: 90%;
+        height: auto;
     }
-
-    .hero-image img {
-        height: 500px;
-    }
-
 
     .hero-text {
         padding: 5em 5% 5em 10%;
     }
+
 }
 
 /* ---- Phone size - 425px ----- */

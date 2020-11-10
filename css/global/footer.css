@@ -1,7 +1,7 @@
 #footer {
     display: block;
     margin: 0 auto;
-    background-color: var(--blue);
+    background-color: var(--grey);
     padding-top: 4em;
     padding-bottom: 2em;
 }

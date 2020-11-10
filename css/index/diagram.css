@@ -1,0 +1,37 @@
+#diagram{
+    display: grid;
+    grid-template-rows: auto;
+    align-items: center;
+    justify-items: center;
+    width: 100%;
+}
+
+#diagram h2{
+    margin-bottom: 5rem;
+    letter-spacing: 1.2;
+    color: var(--red);
+    text-align: center;
+}
+
+.diagram-image{
+    width: 60%;
+    height: auto;
+}
+
+.diagram-image img{
+    width: 100%;
+    height: auto;
+}
+
+.diagram-text{
+    padding: 5em 5% 5em 10%;
+}
+
+
+/* ----- Tablet size ----- */
+@media only screen and (max-width: 768px) {
+    .diagram-image{
+        width: 90%;
+        height: auto;
+    }
+}

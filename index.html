@@ -29,15 +29,14 @@
     <link rel="stylesheet" href="./css/global/footer.css">
     <link rel="stylesheet" href="./css/global/scroll_top_btn.css">
 
-    <!-- Midlertidig link -->
-    <link rel="stylesheet" href="./css/kontakt/kontakt.css">
-
-    <!-- Custom css -->
-    <link rel="stylesheet" href="./css/index/forsidebilde.css">
+    <link rel="stylesheet" href="./css/index/kontakt.css">
     <link rel="stylesheet" href="./css/index/hero.css">
-    <link rel="stylesheet" href="./css/index/tjenester.css">
+    <link rel="stylesheet" href="./css/index/journey.css">
+    <link rel="stylesheet" href="./css/index/diagram.css">
     <link rel="stylesheet" href="./css/index/kunder.css">
     <link rel="stylesheet" href="./css/index/call-to-action.css">
+    <link rel="stylesheet" href="./css/index/programmer.css">
+    <link rel="stylesheet" href="./css/index/pricing.css">
     <link rel="stylesheet" href="./css/contact/contact.css">
 
     <!-- Font awesome -->
@@ -49,29 +48,15 @@
 </head>
 
 <body>
-
+    <!-- HEADER -->
     <header>
-        <!-- NAVIGASJON -->
-        <nav class="header">
-            <a href="#" class="logo"><img src="./assets/graphics/logo-someday.png" alt="Someday sin logo" /></a>
-            <input class="menu-btn" type="checkbox" id="menu-btn" />
-            <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
-            <ul class="menu">
-                <li><a href="./underside/om.html">Om Someday</a></li>
-                <div class="dropdown">
-                    <button class="dropbtn">Tjenester <i class="fas fa-caret-down"></i></button>
-                    <div class="dropdown-content">
-                        <a href="./underside/onboarding.html">Someday EO</a>
-                        <a href="./underside/culture.html">Someday Cultivated</a>
-                        <a href="./underside/retail.html">Someday Retail</a>
-                    </div>
-                </div>
-                <li><a href="./underside/kontakt.html">Kontakt oss</a></li>
-                <li><a class='header-btn'
-                        href="https://portal.somedaybusiness.com/someday_customer_portal/web/site/login">Logg inn</a>
-                </li>
-            </ul>
-        </nav>
+        <a href="../index.html" class="logo"><img src="../assets/graphics/logo-someday.png" alt="Someday sin logo"></a>
+
+        <a href='https://portal.somedaybusiness.com/web_app/login' class='header-btn' >
+            <div>
+                LOGIN
+            </div>
+        </a>
     </header>
 
     <main>
@@ -79,137 +64,139 @@
         <!-- Back to top button -->
         <button onclick="topFunction()" id="scrollTopBtn" title="Go to top"><i class="fa fa-chevron-up"></i></button>
 
-        <!-- FORSIDEBILDE - header image -->
-        <!--<section id="forsidebilde">
-            <div class="img">
-                <div class="header-text">
-                    <h1>ØNSKER DU SKAPE EN ENGASJERENDE
-                        KULTUR PÅ DIN ARBEIDSPLASS?</h1>
-                    <p>Vi kan hjelpe deg!</p>
-                    <div class='forside-wrap'>
-                        <div>
-                            <a href="#tjenester" class="btn-forside" id='btn-forside1'>Jeg vil vite mer!</a>
-                        </div>
-                        <div>
-                            <a href='./underside/kontakt.html' class='btn-forside' id='btn-forside2'>Ta en prat med
-                                oss!</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        -->
-
         <!-- HERO - header image -->
         <section id="hero">
             <div class="hero-text">
-                <h1>ØNSKER DU SKAPE EN ENGASJERENDE
-                    KULTUR PÅ DIN ARBEIDSPLASS?</h1>
-                <p>Vi kan hjelpe deg!</p>
-                <a href=#tjenester class='btn-hero' id='btn-hero2'>Jeg vil vite mer!</a>
+                <h1>WALK THE TALK</h1>
+                <p> <b>The training platform that enables businesses to walk the talk</b></p>
+                <br>
+                <br>
+                <div id='hero-dynamic'>
+                    <p><b>Check out our programs:</b></p>
+                </div>
             </div>
             <div class="hero-image">
-                <img src="./assets/graphics/hero-phone.png" alt="">
+                <img src="./assets/graphics/hero-device.png" alt="The Somedayapp on both Mobile devices and Desktop">
             </div>
         </section>
 
-        <!-- TJENESTER -->
-        <section id="tjenester">
-            <div class="header-text">
-                <div class="headline">
-                    <h2>Tjenester</h2>
-                </div>
-            </div>
-            <div class="tjeneste-grid">
-                <article class="tjeneste-artikkel">
-                    <a class="tjeneste-artikkel-grid" href='./underside/onboarding.html'>
-                        <img src="./assets/img/onboarding.jpg" alt="Et bord med laptoper og papirer med folk rundt">
-                        <div class="tjeneste-artikkel-text">
-                            <h3>Someday EO</h3>
-                            <p>Å skape en samlende kultur starter allerede når kontrakten med den nyansatte er signert.
-                                Ved
-                                bruk
-                                av Someday Employee Onboarding kan du gi de nyansatte så god start som mulig, slik at de
-                                føler seg
-                                hjemme fra første dag.
-                            </p>
-                            <p class='tjeneste-end'><strong>Les mer!</strong></p>
-                        </div c>
-                    </a>
-                </article>
-                <article class="tjeneste-artikkel">
-                    <a class="tjeneste-artikkel-grid" href='./underside/culture.html'>
-                        <img src="./assets/img/culture.jpg" alt="En smilende mann med en lapp i panna">
-                        <div class="tjeneste-artikkel-text">
-                            <h3>Someday Cultivated</h3>
-                            <p>Å lykkes med endringsprosesser er vanskelig, men vi vil hjelpe deg med å lykkes. Someday
-                                cultivated bruker vår gamifiserte plattform til å motivere og engasjere hele
-                                organisasjonen
-                                til
-                                å trene på målet
-                            </p>
-                            <p class='tjeneste-end'><strong>Les mer!</strong></p>
-                        </div>
-                    </a>
-                </article>
-                <article class="tjeneste-artikkel">
-                    <a class="tjeneste-artikkel-grid" href='./underside/retail.html'>
-                        <img src="./assets/img/retail.jpg" alt="Klær satt opp i butikk">
-                        <div class="tjeneste-artikkel-text">
-                            <h3>Someday Retail</h3>
-                            <p>Vi har skapt et effektivt verktøy for de organisasjoner som driver med kampanje
-                                oppfølging. I
-                                dette verktøyet kan du enkelt sende ut kampanjeinformasjon, få tilbakemeldinger og holde
-                                en
-                                god
-                                dialog med butikkene.
-                            </p>
-                            <p class='tjeneste-end'><strong>Les mer!</strong></p>
-                        </div>
-                    </a>
-                </article>
-            </div>
+        <!-- JOURNEY -->
+        <section id="journey">
+            <h2>the business trip with someday</h2>
+           <div class='journey-image'>
+                <img src='./assets/graphics/journey.png' alt='diagram the user journey while using someday'/>
+           </div>
+           <div class="journey-text">
+                <p>What are you talking about in your organisation? Most businesses are talking a lot about different issues as, workers engagement, vision and values, management, sustainability or how to work remotely during covid-19. Sadly for a lot of businesses it's just talk, we can help you walk the talk.</p>
+           </div>
         </section>
-    
-        <!--VÅRE KUNDER -->
-       <!-- <section id="kunder">
-            <div class="kunde-container">
-                <div class="kunde-tekst">
-                    <h2>Våre kunder</h2>
+
+        <!-- DIAGRAM -->
+        <section id="diagram">
+            <h2>How?</h2>
+           <div class='diagram-image'>
+                <img src='./assets/graphics/diagram.png' alt='diagram of efficiency and time while using Someday'/>
+           </div>
+           <div class="diagram-text">
+                <p>We all learn by doing, and as much as 70% of learning comes through practice. If is not used, as much as 75% will be forgotten within 6 days. With our platform we are certain that your employees and your business will benefit from either one of our standard programs or by creating one that is specific to your needs. Look through our programs by pressing <a href='#programs'>here</a></p>
+                <br>
+                <p>Our platform is build upon the best of gaming theory and psychology. Combining these two elements makes us are able to deliver a way to implement and drive changes in your organisation in an efficient and fun way.</p>
+           </div>
+        </section>
+
+        <!-- PROGRAMMER -->
+        <h2 id='program-h2'>Programs</h2>
+        <section id="programs">
+            <div id=program>
+                <div class='articles' id='onboar'>
+                    <h3 class='grey'>Onboarding</h3>
+                    <div id='onboar-s'><p>Read more</p></div>
                 </div>
-                <div class="kunde-wrapper">
-                    <div class="kunde-grid">
-                        <img class="kunde-logo" src="./assets/kundelogoer/basflogo.jpg" alt="logo for basf">
-                        <img class="kunde-logo" src="./assets/kundelogoer/friskgaardenlogo.jpg"
-                            alt="logo for friskgaarden">
-                        <img class="kunde-logo" src="./assets/kundelogoer/olivenlunden.png" alt="logo for olivenlunden">
-                        <img class="kunde-logo" src="./assets/kundelogoer/princesslogo.png" alt="logo for princess">
-                        <img class="kunde-logo" src="./assets/kundelogoer/samarbeidsutvikling.jpg"
-                            alt="logo for samarbeidsutvikling">
-                    </div>
+                <div class='articles' id='remote'>
+                    <h3 class='grey'>Remote work</h3>
+                    <div id='remote-s'><p>Read more</p></div>
+                </div>
+                <div class='articles' id='engage'>
+                    <h3 class='grey'>Engagement</h3>
+                    <div id='engage-s'><p>Read more</p></div>
+                </div>
+                <div class='articles' id='sustain'>
+                    <h3 class='grey'>Sustainability</h3>
+                    <div id='sustain-s'><p>Read more</p></div>
+                </div>
+                <div class='articles' id='manage'>
+                    <h3 class='grey'>Management</h3>
+                    <div id='manage-s'><p>Read more</p></div>
+                </div>
+                <div class='articles' id='sales'>
+                    <h3 class='grey'>Sales</h3>
+                    <div id='sales-s'><p>Read more</p></div>
+                </div>
+                <div class='articles' id='culture'>
+                    <h3 class='grey'>Culture</h3>
+                    <div id='culture-s'><p>Read more</p></div>
+                </div>
+                <div class='articles' id='your'>
+                    <h3 class='grey'>Your own</h3>
+                    <div id='your-s'><p>Read more</p></div>
                 </div>
             </div>
-        </section>-->
+         </section>
+
+         <!-- PRICING -->
+        <section id="pricing">
+            <h2>Pricing</h2>
+           <div class='pricing-image'>
+                <img src='./assets/graphics/pricing.png' alt='The pricing program of Someday - 25NOK per month for Basic version, 30NOK per month for Enterprice'/>
+           </div>
+        </section>
+
+        <!-- Patrick og Ole -->
+        <section id="kontakt">
+            <h2>Contact us</h2>
+            <p>Talk to us about your business culture today!</p>
+            <div class="kontakt-grid">
+                <article>
+                    <img src="../assets/img/oyvind.jpg" alt="bilde av Øyvind, Founder av Someday">
+                    <h3>Øyvind Reierstad</h3>
+                    <h4>CEO / Founder</h4>
+                    <a href="mailto:or@somedaybusiness.com">or@somedaybusiness.com</a>
+                    <a href="tel:+4791370232">+47 913 70 232</a>
+                    <a href="https://www.linkedin.com/in/%C3%B8yvind-olav-b-reierstad-762a3318/" target=blank><i
+                            class="fa fa-linkedin-square"></i></a>
+                </article>
+                <article>
+                    <img src="../assets/img/patrick.jpg" alt="bilde av Patrick, COO i Someday">
+                    <h3>Patrick Olsen</h3>
+                    <h4>COO / Founder</h4>
+                    <a href="mailto:po@somedaybusiness.com">po@somedaybusiness.com</a>
+                    <a href="tel:+4797186414">+47 971 86 414</a>
+                    <a href="https://www.linkedin.com/in/paolsen/" target=blank><i
+                            class="fa fa-linkedin-square"></i></a>
+                </article>
+            </div>
+            <p>Or leave us a message bellow..</p>
+        </section>
 
         <!-- CALL TO ACTION -->
         <section id='call-to-wrap'>
             <section id="call-to-action">
                 <div class="action-container">
                     <div class="action-text">
-                        <h2>La oss ta en prat</h2>
-                        <p>Legg igjen epost og forslag til møtetidspunkt så bekrefter vi så fort som mulig
+                        <h2>Lets talk!</h2>
+                        <p>Leave a message and when you are free! We will contact you shortly
                         </p>
                     </div>
                     <div class="action-form">
                         <form action="https://formspree.io/moqqbpge" method="POST">
                             <ul class="form-style-1">
                                 <li>
-                                    <input type="text" name="name" class="field-divided" placeholder="Fornavn" />
-                                    <input type="text" name="lastname" class="field-divided" placeholder="Etternavn" />
+                                    <input type="text" name="name" class="field-divided" placeholder="Forename" />
+                                    <input type="text" name="lastname" class="field-divided" placeholder="Surename" />
                                 </li>
                                 <li>
                                     <input required type="email" name="_replyto" class="field-long"
-                                        placeholder="Epostadresse *" />
+                                        placeholder="E-mail *" />
                                 </li>
                                 <li>
                                     <input required type="date" name="date" class="field-divided"
@@ -220,10 +207,10 @@
                                 <li>
                                 <li>
                                     <textarea name="message" id="message" class="field-long field-textarea"
-                                        placeholder="Din melding..."></textarea>
+                                        placeholder="Your message..."></textarea>
                                 </li>
                                 <li>
-                                    <input type="submit" value="Kontakt meg!" />
+                                    <input type="submit" value="Contact me!" />
                                 </li>
                             </ul>
                         </form>
@@ -236,26 +223,21 @@
         </section>
     </main>
 
+    <!-- FOOTER -->
     <footer id="footer">
         <div class="footer-wrapper">
             <div class="footer-grid">
                 <section class="company-info">
-                    <h3>Kontakt</h3>
+                    <h3>CONTACT</h3>
                     <p>Someday Company AS</p>
                     <p>Mesh - Tordenskioldsgate 3</p>
                     <p>0160 Oslo - Norway</p>
                     <a href="mailto:support@somedaybusiness.com">support@somedaybusiness.com</a>
                 </section>
-                <section class="produkt-linker">
-                    <h3>Tjenester</h3>
-                    <a href="./underside/onboarding.html"><i class="fa fa-arrow-right"></i> Someday EO</a>
-                    <a href="./underside/culture.html"><i class="fa fa-arrow-right"></i> Someday Cultivated</a>
-                    <a href="./underside/retail.html"><i class="fa fa-arrow-right"></i> Someday Retail</a>
-                </section>
                 <section class="site-map">
-                    <h3>Informasjon</h3>
-                    <a href="./underside/om.html"><i class="fa fa-arrow-right"></i> Om oss</a>
-                    <a href="./underside/privacy.html"><i class="fa fa-arrow-right"></i> Personvern</a>
+                    <h3>INFORMATION</h3>
+                    <a href="./underside/om.html"><i class="fa fa-arrow-right"></i> About Someday</a>
+                    <a href="./underside/privacy.html"><i class="fa fa-arrow-right"></i> Privacy policy</a>
                 </section>
             </div>
             <section class="social-footer">
@@ -275,7 +257,9 @@
     </footer>
 
 
+    <script src="./javascript/changewords.js"></script>
     <script src="./javascript/back_to_top.js"></script>
+    <script src="./javascript/programmer.js"></script>
 </body>
 
 </html>
