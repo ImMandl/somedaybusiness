@@ -125,6 +125,7 @@ a {
     font-weight: 600;
     line-height: 1.6;
     font-family: 'Titillium Web', Arial, Helvetica, sans-serif;
+    transition: 0.5s;
 }
 a:hover {
     color: var(--red);
