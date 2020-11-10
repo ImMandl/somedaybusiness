@@ -77,7 +77,6 @@ p {
     color: var(--grey);
     line-height: 1.5;
     margin-bottom: 8px;
-    font-family: 'Titillium Web', Arial, Helvetica, sans-serif;
 }
 
 .a{
@@ -128,7 +127,6 @@ a {
     text-decoration: none;
     font-weight: 600;
     line-height: 1.6;
-    font-family: 'Titillium Web', Arial, Helvetica, sans-serif;
     transition: 0.5s;
 }
 a:hover {
