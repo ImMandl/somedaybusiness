@@ -7,15 +7,7 @@ const sales = document.querySelector("#sales");
 const culture = document.querySelector("#culture");
 const your = document.querySelector("#your");
 
-const ons = document.querySelector("#onboar-s");
-const ens = document.querySelector("#engage-s");
-const res = document.querySelector("#remote-s");
-const sus = document.querySelector("#sustain-s");
-const mas = document.querySelector("#manage-s");
-const sas = document.querySelector("#sales-s");
-const cus = document.querySelector("#culture-s");
-const yos = document.querySelector("#your-s");
-
+// Updates the Program box to have the information text, and de selects other program boxes
 const information = (evt) => {
     event.preventDefault();
 

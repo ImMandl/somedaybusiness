@@ -1,11 +1,13 @@
 const dynamic = document.querySelector("#hero-dynamic");
 
+// Words that it changes to
 let arr = ['Onboarding','Remote work','Engagement','Sustainability','Management','Sales','Culture','Your own'];
 
 let length = arr.length;
 
 let count = 0
 
+// changes the inner HTML 
 const changer = () => {
     dynamic.innerHTML=`<p><b>Check out our programs: <a href='#programs' class='a' >${arr[count]}</a></b></p>`
     
