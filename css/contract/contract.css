@@ -1,0 +1,158 @@
+html{
+    margin: 0 auto;
+    background-color: var(--grey);
+}
+body{
+    align-content: center;
+    max-width: 60rem;
+    padding: 2rem;
+}
+
+body p, h2{
+  color: white;
+}
+
+/* Dropdown Button */
+.dropbtn {
+    width: 20rem;
+    height: 5rem;
+    background-color: var(--blue);
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+
+  }
+  
+  /* Dropdown button on hover & focus */
+  .dropbtn:hover, .dropbtn:focus {
+    background-color: var(--darkblue);
+  }
+  
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {background-color: #ddd}
+  
+  /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+  .show {display:block;}
+
+  /* hentet fra https://www.sanwebe.com/2014/08/css-html-forms-designs. Modifisert i ettertid */ 
+.form-style-1 {
+  display: block;
+  max-width: 40rem;
+}
+
+.form-style-1 li {
+	padding: 0;
+	display: block;
+	list-style: none;
+	margin: 3rem 0 0 0;
+}
+
+.form-style-1 input[type=text], 
+.form-style-1 input[type=date],
+.form-style-1 input[type=datetime],
+.form-style-1 input[type=number],
+.form-style-1 input[type=search],
+.form-style-1 input[type=time],
+.form-style-1 input[type=url],
+.form-style-1 input[type=email],
+.form-style-1 textarea, 
+.form-style-1 select{
+	padding: 1rem 0;
+	outline: none;	
+	border-bottom: 2px solid var(--white);
+	background-color: var(--white);
+	padding: 10px;
+	border-radius: 6px;
+	color: var(--grey);
+	font-family: 'Roboto', sans-serif;
+}
+
+::placeholder {
+	color: var(--grey);
+}
+
+.form-style-1 input[type=placeholder] {
+	color: var(--grey);
+}
+
+.form-style-1 input[type=text]:focus, 
+.form-style-1 input[type=date]:focus,
+.form-style-1 input[type=datetime]:focus,
+.form-style-1 input[type=number]:focus,
+.form-style-1 input[type=search]:focus,
+.form-style-1 input[type=time]:focus,
+.form-style-1 input[type=url]:focus,
+.form-style-1 input[type=email]:focus,
+.form-style-1 textarea:focus, 
+.form-style-1 select:focus{
+	box-shadow: 0 0 6px var(--red);
+}
+
+.form-style-1 .field-divided{
+	width: 49%;
+}
+
+.form-style-1 .field-long{
+	width: 100%;
+}
+
+.form-style-1 .field-select{
+	width: 100%;
+}
+
+.form-style-1 .field-textarea{
+	height: 100px;
+}
+
+.form-style-1 input[type=submit], .form-style-1 input[type=button]{
+	background: var(--red);
+	color: var(--white);
+	padding: 12px 20px;
+  width: 15rem;
+	border: none;
+	font-size: 1.6rem;
+	line-height: 2em;
+	border-radius: 8px;
+	box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+	transition: 0.5s;
+}
+
+.form-style-1 input[type=submit]:hover, .form-style-1 input[type=button]:hover{
+	background-color: var(--darkred);
+	cursor: pointer;
+	box-shadow:none;
+	transition: 0.5s;
+}
+
+.form-style-1 label{
+  font-size: 1.8rem;
+  color: white;
+}
+

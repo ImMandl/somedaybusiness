@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-87118010-3"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+        gtag('config', 'UA-87118010-3');
+    </script>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Someday - contract</title>
+
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="../assets/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../assets/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../assets/favicon/favicon-16x16.png">
+    <link rel="manifest" href="../assets/favicon/site.webmanifest">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="../css/contract/contract.css">
+
+    <!-- Font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+
+    <!-- Google fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+      <div id='terms'>
+        <h2>Congratulations on your new job!</h2>
+        <p>We and your future employer have created a onboarding tool so you will have the opportunity to learn about your employer and its culture. In order to get you registered and assign you the right manager we need the following:</p>
+        <form method="post" action="mail_handler.php" id="contact-form" name="form">
+          <ul class="form-style-1">
+              <li>
+                <select required id="country" name="country">
+                  <option value="Norge">Norge</option>
+                  <option value="Sverige">Sverige</option>
+                  <option value="Danmark">Danmark</option>
+                  <option value="Finland">Finland</option>
+                  <option value="Baltic">Baltic</option>
+                </select>
+              </li>
+              <li>
+                  <input required type="email" name="email" class="field-long"
+                      placeholder="E-mail *" />
+              </li>
+              <li>
+                  <input required type="text" name="navn" class="field-long"
+                      placeholder="Name *" />
+              </li>
+              <li>
+                  <input required type="text" name="department" class="field-divided" placeholder="Department *" />
+              </li>
+              <li>
+                  <input required type="checkbox" id="terms" name="terms" value="Accept">
+                  <label for="terms">I have read and agreed with the <a href='#' onclick="window.open('./privacy.html', 'privacy policy','width=600,height=400')">Privacy policy</a></label><br>
+              </li>
+              <li>
+                  <input type="submit" value="Sign up" />
+              </li>
+              <li>
+                <label><i>You will receive a mail from <b>support@somedaybusiness.com</b> within the next couple of days with your password and where to download the app. - please check your spam folder</i></label>
+              </li>
+          </ul>
+      </form>
+      </div>
+</body>
+
+</html>
