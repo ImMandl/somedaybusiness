@@ -22,6 +22,9 @@
     <link rel="icon" type="image/png" sizes="16x16" href="../assets/favicon/favicon-16x16.png">
     <link rel="manifest" href="../assets/favicon/site.webmanifest">
 
+    <!-- Global css -->
+    <link rel="stylesheet" href="../css/global/global.css">
+
     <!-- Custom CSS -->
     <link rel="stylesheet" href="../css/contract/contract.css">
 
@@ -40,11 +43,11 @@
           <ul class="form-style-1">
               <li>
                 <select required id="country" name="country">
-                  <option value="Norge">Norge</option>
-                  <option value="Sverige">Sverige</option>
-                  <option value="Danmark">Danmark</option>
-                  <option value="Finland">Finland</option>
-                  <option value="Baltic">Baltic</option>
+                  <option value="norway">Norway</option>
+                  <option value="sweden">Sweden</option>
+                  <option value="denmark">Denmark</option>
+                  <option value="finland">Finland</option>
+                  <option value="baltic">Baltic</option>
                 </select>
               </li>
               <li>
@@ -52,7 +55,7 @@
                       placeholder="E-mail *" />
               </li>
               <li>
-                  <input required type="text" name="navn" class="field-long"
+                  <input required type="text" name="name" class="field-long"
                       placeholder="Name *" />
               </li>
               <li>
@@ -63,7 +66,7 @@
                   <label for="terms">I have read and agreed with the <a href='#' onclick="window.open('./privacy.html', 'privacy policy','width=600,height=400')">Privacy policy</a></label><br>
               </li>
               <li>
-                  <input type="submit" value="Sign up" />
+                  <input type="submit" value="Sign up" name="submit" />
               </li>
               <li>
                 <label><i>You will receive a mail from <b>support@somedaybusiness.com</b> within the next couple of days with your password and where to download the app. - please check your spam folder</i></label>
