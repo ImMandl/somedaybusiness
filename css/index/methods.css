@@ -1,0 +1,182 @@
+* {box-sizing:border-box}
+
+#method{
+    margin-bottom: 20em;
+}
+
+#method-text{
+    text-align: center;
+    margin-bottom: 2em;
+}
+#method h2{
+    color: var(--red);
+}
+
+/* Method titles */
+
+nav ul {
+    margin: 0px;
+}
+  
+nav li {
+    margin-right: 40px;
+    list-style: none;
+    text-decoration: none;
+    display: inline;
+}
+  
+nav li a {
+    text-decoration: none;
+    cursor: pointer;
+    display: inline;
+}
+
+#slideshow{
+    padding-bottom: 4rem;
+}
+
+/* Hides the lower info when hover picture*/
+.slideshow-content:hover .info{
+  visibility: hidden;
+}
+
+/* Hides the lower info when hover picture*/
+.slideshow-content:hover .MessageInfo{
+  visibility: hidden;
+}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 100rem;
+  position: relative;
+  margin: auto;
+  max-height: 50rem;
+}
+  
+  /* Make the images invisible by default */
+  .slideshow-content {
+    display: none;
+
+  }
+
+  .slideshow-img{
+    width: 100%;
+    max-height: 50rem;
+    object-fit: cover;
+  }
+  
+  /* forward & Back buttons */
+  .Back, .forward {
+    cursor: pointer;
+    position: absolute;
+    top: 48%;
+    width: auto;
+    margin-top: -23px;
+    padding: 17px;
+    color: white;
+    font-weight: bold;
+    font-size: 19px;
+    transition: 0.4s ease;
+    border-radius: 0 5px 5px 0;
+    user-select: none;
+    background-color: rgba(0,0,0,0.8);
+  }
+  
+  /* Place the "forward button" to the right */
+  .forward {
+    right: 0;
+    border-radius: 4px 0 0 4px;
+  }
+  
+  /* Caption Info */
+  .info{
+    color: white;
+    background-color: rgba(0,0,0,0.8);
+    text-align: center;
+    font-size: 1.8rem;
+    padding: 10px 14px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  /* Worknumbering (1/3 etc) */
+  .MessageInfo {
+    color: white;
+    background-color: rgba(0,0,0,0.8);
+    text-align: center;
+    width: 100%;
+    font-size: 2rem;
+    padding: 10px 14px;
+    position: absolute;
+    top: 0;
+  }
+  
+  /* The circles or bullets and indicators */
+  .dots {
+    cursor: pointer;
+    height: 16px;
+    width: 16px;
+    margin: 0 3px;
+    background-color: var(--grey);
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.5s ease;
+  }
+  
+  .enable, .dots:hover {
+    background-color: var(--red);
+  }
+  
+  /* Faint animation */
+  .fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.4s;
+    animation-name: fade;
+    animation-duration: 1.4s;
+  }
+  
+  @-webkit-keyframes fade {
+    from {opacity: .5}
+    to {opacity: 2}
+  }
+  
+  @keyframes fade {
+    from {opacity: .5}
+    to {opacity: 2}
+  }
+
+
+/* ----- Tablet size ----- */
+@media only screen and (max-width: 768px) {
+    /* Slideshow container */
+
+    /* Slideshow container */
+  .slideshow-container {
+    min-width: 100vw; 
+    min-height: 30rem;
+    overflow: hidden;
+  }
+  /* img in slideshow */
+  .slideshow-img{
+    object-fit: cover;
+    height: 100%;
+    max-width: 100%;
+    width: auto;
+  }
+
+
+    nav li a{
+        display: block;
+    }
+
+    /* Caption Info */
+  .info{
+    padding: 5px 7px;
+  }
+  
+  /* Worknumbering (1/3 etc) */
+  .MessageInfo {
+    padding: 5px 7px;
+  }
+}

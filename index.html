@@ -3,12 +3,13 @@
 
 <head>
     <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-87118010-3"></script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-XZ2WW9FP19"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
-        function gtag() { dataLayer.push(arguments); }
+        function gtag(){dataLayer.push(arguments);}
         gtag('js', new Date());
-        gtag('config', 'UA-87118010-3');
+
+        gtag('config', 'G-XZ2WW9FP19');
     </script>
 
     <meta charset="UTF-8">
@@ -31,7 +32,7 @@
 
     <link rel="stylesheet" href="./css/index/kontakt.css">
     <link rel="stylesheet" href="./css/index/hero.css">
-    <link rel="stylesheet" href="./css/index/journey.css">
+    <link rel="stylesheet" href="./css/index/methods.css">
     <link rel="stylesheet" href="./css/index/diagram.css">
     <link rel="stylesheet" href="./css/index/call-to-action.css">
     <link rel="stylesheet" href="./css/index/programmer.css">
@@ -39,6 +40,7 @@
 
     <!-- Font awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 
     <!-- Google fonts -->
     <link href="https://fonts.googleapis.com/css?family=Roboto:400,500&display=swap" rel="stylesheet">
@@ -60,100 +62,204 @@
 
     <main>
         <!-- Back to top button -->
-        <button onclick="topFunction()" id="scrollTopBtn" title="Go to top"><i class="fa fa-chevron-up"></i></button>
+        <button onclick="topFunction()" id="scrollTopBtn" title="Go to top">Request a demo!</button>
 
         <!-- HERO - header image -->
         <section id="hero">
             <div class="hero-text">
-                <h1>WALK THE TALK</h1>
-                <p> <b>The training platform that enables businesses to walk the talk</b></p>
-                <br>
-                <br>
+                <h1>Change - talk is easy, action is harder</h1>
                 <div id='hero-dynamic'>
-                    <h3><b>Check out our programs:</b></h3>
+                    <h3><b>What are you trying to change:</b></h3>
                 </div>
+                <p>Someday Culture is your organisation's social training app for implementing changes and getting your strategies revitalized.
+                </p>
+                <br>
+                <br>
+                
             </div>
             <div class="hero-image">
                 <img src="./assets/graphics/hero-device.png" alt="The Somedayapp on both Mobile devices and Desktop">
             </div>
         </section>
 
-        <!-- JOURNEY -->
-        <section id="journey">
-            <h2>the business trip with someday</h2>
-           <div class='journey-image'>
-                <img src='./assets/graphics/journey.png' alt='diagram the user journey while using someday'/>
-           </div>
-           <div class="journey-text">
-                <p>What are you talking about in your organisation? Most businesses are talking a lot about different issues as, workers engagement, vision and values, management, sustainability or how to work remotely during covid-19. Sadly for a lot of businesses it's just talk, we can help you walk the talk.</p>
-           </div>
-        </section>
+        <!--Methods-->
+        <section id='method'>
+            <div id='method-text'>
+                <h2>How it works</h2>
+                <p>For a change to be successful we belive that you can not do it by yourself. <br>Through our technology we base our method on these 5.</p>
+                <nav>
+                    <ul>
+                        <li><a onclick="currentSlide(1)">70-20-10 model</a></li>
+                        <li><a onclick="currentSlide(2)">Specific and practical training plans</a></li>
+                        <li><a onclick="currentSlide(3)">Commitment from the organisation</a></li>
+                        <li><a onclick="currentSlide(4)">Gamefication technology</a></li>
+                        <li><a onclick="currentSlide(5)">Social community</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <section id='slideshow'>
+                    <!--Slideshow container-->
+                <div class='slideshow-container fade'>
+                    <!--70-20-10-->
+                    <div class='slideshow-content fade' id='model'>
+                        <div class='MessageInfo'><b>70-20-10 model</b></div>
+                        <img class ='slideshow-img' src="/assets/img/model70.png" alt='The 70 20 10 model. 70% of our learning comes from direct on the work experiences. 20% comes from relations with other people. While 10% comes from Training. '>
+                        <div class='info'>We base our learning off the 70-20-10 model and pur programs are designed for the employees to learn on the job and not just in theory</div>
+                    </div>
+                    <!--Training plan-->
+                    <div class='slideshow-content fade' id='training'>
+                        <div class='MessageInfo'><b>Training plans</b></div>
+                        <img class ='slideshow-img' src="/assets/img/training.jpeg" alt='Group of people having a workshop'>
+                        <div class='info'>We belive if an action is done several times you will learn it by heart. That how are programs are designed, for the employee to start where they feel they need it the most and work their way from there through repetitions.</div>
+                    </div>
+                    <!--Commitment-->
+                    <div class='slideshow-content fade' id='Commit'>
+                        <div class='MessageInfo'><b>Commitment</b></div>
+                        <img class ='slideshow-img' src="/assets/img/commitment.jpeg" alt='Scrabble pieces spelling "Start making changes"'>
+                        <div class='info'>To be able to change an organisation we need a commitment from the employees. Make it practical for the employees to understand and commit to the changes that you are about to launch.</div>
+                    </div>
+                    <!--Gamefication-->
+                    <div class='slideshow-content fade' id='Game'>
+                        <div class='MessageInfo'><b>Gamefication</b></div>
+                        <img class ='slideshow-img' src="/assets/img/game.jpg" alt='Guy on his phone'>
+                        <div class='info'>Our app are using gamification to engage the employees. We are making it fun to do the tasks offered in the app</div>
+                    </div>
+                    <!--Training plans-->
+                    <div class='slideshow-content fade' id='Game'>
+                        <div class='MessageInfo'><b>Power of the community</b></div>
+                        <img class ='slideshow-img' src="/assets/img/comunity.jpeg" alt='Group of people on their computers'>
+                        <div class='info'>If you want to go fast, go alone, if you want to go far go together. This is in our core from  our design. Changes within an organisation can not just be one person, it needs to involve. Through our feed, and the community within we belive you are able to go far with your changes.</div>
+                    </div>
 
-        <!-- DIAGRAM -->
-        <section id="diagram">
-            <h2>How?</h2>
-           <div class='diagram-image'>
-                <img src='./assets/graphics/diagram.png' alt='diagram of efficiency and time while using Someday'/>
-           </div>
-           <div class="diagram-text">
-                <p>We all learn by doing, and as much as 70% of learning comes through practice. If is not used, as much as 75% will be forgotten within 6 days. With our platform we are certain that your employees and your business will benefit from either one of our standard programs or by creating one that is specific to your needs. Look through our programs by pressing <a href='#programs'>here</a></p>
+                    <!-- Back and forward buttons -->
+                    <a class="Back" onclick="plusSlides(-1)">&#10094;</a>
+                    <a class="forward" onclick="plusSlides(1)">&#10095;</a>
+                </div>
                 <br>
-                <p>Our platform is build upon the best of gaming theory and psychology. Combining these two elements makes us are able to deliver a way to implement and drive changes in your organisation in an efficient and fun way.</p>
-           </div>
+
+                <!-- The circles/dots -->
+                <div style="text-align:center">
+                    <span class="dots" onclick="currentSlide(1)"></span>
+                    <span class="dots" onclick="currentSlide(2)"></span>
+                    <span class="dots" onclick="currentSlide(3)"></span>
+                    <span class="dots" onclick="currentSlide(4)"></span>
+                    <span class="dots" onclick="currentSlide(5)"></span>
+                </div> 
+            </section>
         </section>
 
         <!-- PROGRAMMER -->
-        <h2 id='program-h2'>Programs</h2>
+        <h2 id='program-h2'>PROGRAMS</h2>
         <section id="programs">
             <div id=program>
                 <div class='articles' id='onboar'>
-                    <h3 class='grey'>Onboarding</h3>
+                    <h3 class='articles_title'>Onboarding</h3>
+                    <img class ='articles_img' src="/assets/img/onboarding.png" alt='Illustration of a construction site'>
+                    <div class='articles_hover'>
+                        <div class='articles_text'>
+                            <p>As many as 86% of new hires will quit within 6 months if the company is not providing these simple things. Continuously follow up, access to all the tools needed to do the work and a buddy system with an intention. By using our program not only will everyone involved get notifications when they get a task, but you will make sure that the new hires are feeling welcome and being given the best chances for success.</p>
+                        </div>
+                    </div>
                     <p>Read more</p>
                 </div>
-                <div class='articles' id='remote'>
-                    <h3 class='grey'>Remote work</h3>
+                <div class='articles' id='onboar'>
+                    <h3 class='articles_title'>HMS</h3>
+                    <img class ='articles_img' src="/assets/img/construction.png" alt='Illustration of a construction site'>
+                    <div class='articles_hover'>
+                        <div class='articles_text'>
+                            <p>Everyone agrees that safety is important, but implementing those new routines can be hard. That’s where our program is great. It has tasks supporting the organization’s strategic safety goals and its build upon gamification and the power of the community.</p>
+                        </div>
+                    </div>
                     <p>Read more</p>
                 </div>
-                <div class='articles' id='engage'>
-                    <h3 class='grey'>Engagement</h3>
+                <div class='articles' id='onboar'>
+                    <h3 class='articles_title'>Sustainability</h3>
+                    <img class ='articles_img' src="/assets/img/sustain.png" alt='Illustration of a construction site'>
+                    <div class='articles_hover'>
+                        <div class='articles_text'>
+                            <p>Our sustainability program is focuses on what the employee as individuals are able to do. The program touches into several of the UN sustainability goals and its a fun way to actively see how you participate to make the world a little better</p>
+                        </div>
+                    </div>
                     <p>Read more</p>
                 </div>
-                <div class='articles' id='sustain'>
-                    <h3 class='grey'>Sustainability</h3>
-                    <p>Read more</p>
-                </div>
-                <div class='articles' id='manage'>
-                    <h3 class='grey'>Management</h3>
-                    <p>Read more</p>
-                </div>
-                <div class='articles' id='sales'>
-                    <h3 class='grey'>Sales</h3>
-                    <p>Read more</p>
-                </div>
-                <div class='articles' id='culture'>
-                    <h3 class='grey'>Culture</h3>
-                    <p>Read more</p>
-                </div>
-                <div class='articles' id='your'>
-                    <h3 class='grey'>Your own</h3>
+                <div class='articles' id='onboar'>
+                    <h3 class='articles_title'>Management</h3>
+                    <img class ='articles_img' src="/assets/img/leader.png" alt='Illustration of a construction site'>
+                    <div class='articles_hover'>
+                        <div class='articles_text'>
+                            <p>All businesses will be affected by good or poor management and those that feel the most pressure are team leaders. With our program you can help them feel empowered in the position and install a unified management culture across the company</p>
+                        </div>
+                    </div>
                     <p>Read more</p>
                 </div>
             </div>
          </section>
 
          <!-- PRICING -->
-        <section id="pricing">
-            <h2>Pricing</h2>
-           <div class='pricing-image'>
-                <img src='./assets/graphics/pricing.png' alt='The pricing program of Someday - 25NOK per month for Basic version, 30NOK per month for Enterprice'/>
-           </div>
+         <h2 id='program-h2'>PRICING</h2>
+         <section id='pricing'>
+            <div class="wrapper-card">
+
+                <!-- Card 1 -->
+                <div class="card">
+                    <div class="card-title">
+                        <h3>BASIC</h3>
+                        <h4>If a great onboarding experience is the only thing you need, this deal is optimal for you</h4>
+                    </div>
+                    <div class="card-price">
+                        <h1>
+                            <sup>NOK</sup>
+                            30
+                            <small>per month per user</small>
+                        </h1>
+                    </div>
+                    <div class="card-description">
+                        <ul>
+                            <li>Onboarding</li>
+                            <li>News</li>
+                            <li>Mail support</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Card 2 -->
+                <div class="card popular">
+                    <div class="card-ribbon">
+                        <span>most popular</span>
+                    </div>
+                    <div class="card-title">
+                        <h3>ENTERPRICE</h3>
+                        <h4>If you think your employees are your greatest asset, this is the package you need</h4>
+                    </div>
+                    <div class="card-price">
+                        <h1>
+                        <sup>NOK</sup>
+                        40
+                        <small>per month per user</small>
+                    </h1>
+                    </div>
+                    <div class="card-description">
+                        <ul>
+                            <li>Onboarding</li>
+                            <li>News</li>
+                            <li>Mail support</li>
+                            <li>White label design</li>
+                            <li>Training program</li>
+                            <li>Phone support</li>
+                            <li>Analytics</li>
+                        </ul>
+                    </div>
+                </div>
+                
+            </div>
         </section>
 
         <!-- CONTACT -->
         <section id="kontakt">
             <h2>Contact us</h2>
             <p>Talk to us about your business culture today!</p>
-            <div class="kontakt-grid">
+            <class class="kontakt-grid">
+                <!--
                 <article>
                     <img src="./assets/img/oyvind.jpg" alt="bilde av Øyvind, Founder av Someday">
                     <h3>Øyvind Reierstad</h3>
@@ -163,10 +269,11 @@
                     <a href="https://www.linkedin.com/in/%C3%B8yvind-olav-b-reierstad-762a3318/" target=blank><i
                             class="fa fa-linkedin-square"></i></a>
                 </article>
+                -->
                 <article>
                     <img src="./assets/img/patrick.jpg" alt="bilde av Patrick, COO i Someday">
                     <h3>Patrick Olsen</h3>
-                    <h4>COO / Founder</h4>
+                    <h4>CEO</h4>
                     <a href="mailto:po@somedaybusiness.com">po@somedaybusiness.com</a>
                     <a href="tel:+4797186414">+47 971 86 414</a>
                     <a href="https://www.linkedin.com/in/paolsen/" target=blank><i
@@ -236,8 +343,8 @@
                     <h3>LINKS</h3>
                     <a href="https://blogg.somedaybusiness.com"><i class="fas fa-rss"></i> Blogg</a>
                     <a href="https://portal.somedaybusiness.com/someday_customer_portal/web/site/login"><i class="fa fa-user"></i> Portal</a>
-                    <a href="https://play.google.com/store/apps/details?id=com.someday&hl=en&gl=US" target="blank"><i class="fab fa-google-play"></i> Android</a>
-                    <a href="https://apps.apple.com/no/app/someday-business/id1149729429?l=nb#?platform=iphone" target="blank"><i class="fab fa-app-store-ios"></i> Ios</a>
+                    <a href="https://play.google.com/store/apps/details?id=com.somedaybusiness.x&hl=en_CA&gl=US" target="blank"><i class="fab fa-google-play"></i> Android</a>
+                    <a href="https://apps.apple.com/no/app/someday-culture/id1566862217" target="blank"><i class="fab fa-app-store-ios"></i> Ios</a>
                 </section>
                 <section class="site-map">
                     <h3>INFORMATION</h3>
@@ -264,7 +371,8 @@
     <!-- SCRIPTS -->
     <script src="./javascript/changewords.js"></script>
     <script src="./javascript/back_to_top.js"></script>
-    <script src="./javascript/programmer.js"></script>
+    <!-- <script src="./javascript/programmer.js"></script>-->
+    <script src="./javascript/methods.js"></script>
 </body>
 
 </html>

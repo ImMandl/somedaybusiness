@@ -4,7 +4,7 @@
     align-items: center;
     justify-items: center;
     width: 100%;
-    background-color: var(--darkblue);
+    /*background-color: var(--grey);*/
     margin-bottom: 20em;
 }
 
@@ -30,23 +30,78 @@
 
 
 .articles{
+    position: relative;
     background-color: var(--white);
     border-radius: 10px;
     width: 100%;
-    min-height: 12rem;
+    height: 35rem;
     word-wrap: break-word;
     justify-self: start;
     text-align: center;
     cursor: pointer;
-    padding: 5%;
     align-self: flex-start;
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
     transition: 0.5s;
+    color: var(--grey);
+    overflow: hidden;
 }
 
-.articles p{
+.articles_title{
     color: var(--grey);
-    pointer-events: none;
+    margin-top: 5rem;
+}
+
+.articles_img{
+    width: 30rem;
+    max-height: 19rem;
+}
+
+
+.articles_hover{
+    position: absolute;
+    top: 0;
+    border-radius: 10px;
+    width: 100%;
+    height: 35rem;
+    background-color: var(--blue);
+    margin-top: 35rem;
+
+    animation-name: slide-out;
+    animation-duration: 1s;
+
+}
+
+.articles_text{
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+
+    margin: 0rem 2rem;
+}
+
+@keyframes slide-in {
+    from{
+        margin-top: 35rem;
+    }
+    to{
+        margin-top: 0rem;
+    }
+}
+
+@keyframes slide-out {
+    from{
+        margin-top: 0rem;
+    }
+    to{
+        margin-top: 35rem;
+    }
+}
+
+.articles_hover p{ 
+    color: var(--white);
+    word-wrap: break-word;
+    text-align: center;
 }
 
 .articles h3{
@@ -57,11 +112,12 @@
     pointer-events: none;
 }
 
-.articles:hover{
-    background-color: var(--lightgrey);
-    cursor: pointer;
-    transition: 0.5s;
+.articles:hover .articles_hover{
+    animation-name: slide-in;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
 }
+
 
 @media only screen and (max-width: 440px) {
     #program{

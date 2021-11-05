@@ -23,10 +23,10 @@
 }
 
 .hero-image img {
-    width: 100%;
-    height: auto;
+    height: 100%;
+    width: auto;
 
-    max-width: 600px;
+    max-width: 300px;
 }
 
 .hero-dynamic{
@@ -40,8 +40,11 @@
 /* ---Fix for IMG --- */
 /*Changes size to fit screen*/
 @media only screen and (max-width: 990px){
+    #hero{
+        margin-bottom: 10rem;
+    }
     .hero-image img{
-        height: 500px;
+        max-height: 500px;
         width: auto;
     }
 }
@@ -55,7 +58,7 @@
 
     .hero-image img{
         justify-self: center;
-        width: 90%;
+        width: 100%;
         height: auto;
     }
 

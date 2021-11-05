@@ -37,8 +37,6 @@
 #kontakt .kontakt-grid {
     margin-top: 6em;
 
-    display: grid;
-    grid-template-columns: 32.5% 32.5%;
     justify-content: center;
 }
 
