@@ -23,9 +23,7 @@
 }
 
 .hero-image img {
-    height: 100%;
-    width: auto;
-
+    height: auto;
     max-width: 300px;
 }
 
@@ -58,7 +56,7 @@
 
     .hero-image img{
         justify-self: center;
-        width: 100%;
+        max-width: 600px;
         height: auto;
     }
 

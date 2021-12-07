@@ -160,9 +160,7 @@ nav li a {
   /* img in slideshow */
   .slideshow-img{
     object-fit: cover;
-    height: 100%;
-    max-width: 100%;
-    width: auto;
+    width: 100%;
   }
 
 
